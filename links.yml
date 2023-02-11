@@ -80,7 +80,7 @@ categories:
         description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
         tags: 網址導航,中文垂直社區,微社區,垂直網址導航
 
-  - category: 程序員博客
+  - category: 分類(一)
     icon: linecons-doc
     links:
       - title: 等你來加➕
@@ -101,7 +101,7 @@ categories:
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
 
-  - category: 設計師博客
+  - category: 分類(二)
     icon: linecons-doc
     links:
       - title: 等你來加➕
@@ -121,7 +121,7 @@ categories:
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
 
-  - category: 個人博客
+  - category: 分類(三)
     icon: linecons-doc
     links:
       - title: 等你來加➕
@@ -141,7 +141,7 @@ categories:
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
 
-  - category: 社區
+  - category: 官方網站
     icon: linecons-doc
     links:
       - title: DTO
