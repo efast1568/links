@@ -30,7 +30,7 @@ ga_tracking_code_id: G-FQPN3KGKWP
 ## 友情鏈接數據
 ################
 categories:
-  - category: 最新上架 / New
+  - category: 最新上架
     icon: linecons-star
     links:
       - title: DTO
@@ -77,7 +77,7 @@ categories:
         url: https://zh.pipecraft.net/
         description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
         tags: 網址導航,中文垂直社區,微社區,垂直網址導航
-  - category: 官方網站 / Official
+  - category: 官方網站
     icon: linecons-doc
     links:
       - title: Subaru Taiwan
