@@ -31,7 +31,7 @@ ga_tracking_code_id: G-FQPN3KGKWP
 ## 友情鏈接數據
 ################
 categories:
-  - category: 最新上架 / New
+  - category: 最新上架/New
     hide_menu: true
     icon: linecons-star
     links:
@@ -56,7 +56,7 @@ categories:
         description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
         tags: RSS,Atom,聚合新聞,內容訂閱
 
-- category: 官方網站 / Official
+- category: 官方網站/Official
     icon: linecons-doc
     links:
       - title: Subaru Taiwan
@@ -104,7 +104,7 @@ categories:
         description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
         tags: 網址導航,中文垂直社區,微社區,垂直網址導航
 
-  - category: 社群媒體 / Social Media
+  - category: 社群媒體/Social Media
     icon: linecons-doc
     links:
       - title: 等你來加➕
@@ -125,7 +125,7 @@ categories:
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
 
-  - category: 部落格 / Blog
+  - category: 部落格/Blog
     icon: linecons-doc
     links:
       - title: 等你來加➕
@@ -145,7 +145,7 @@ categories:
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
 
-  - category: FLARUM / 程式
+  - category: FLARUM/程式
     icon: linecons-doc
     links:
       - title: 等你來加➕
