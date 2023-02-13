@@ -9,7 +9,7 @@ logo: https://www.subarist.net/assets/logo-yzli5vki.png
 # 友情鏈接頁面關鍵字（可選）
 keywords: 資源連結, GenEasy, Github, Github Pages, SSG
 # 友情鏈接描述（可選）
-description: 友情鏈接靜態頁面通用模板。
+description: 網路資源連結靜態頁面。
 # 友情鏈接頁面 URL（可選）
 url: https://www.subarist.net/links/
 # Favicon（可選）
@@ -90,10 +90,10 @@ categories:
         url: https://www.mazda.com.tw/
         description: 揉合職人工藝與日式美學，探索自我獨創之道。以誠心款待的精神，創造人馬一体的駕馭樂趣。
         tags: MAZDA,人馬一體,轉子,Roadster
-      - title: SUBARU TECNICA INTERNATIONAL ( STI )
+      - title: STI
         logo: https://lh3.googleusercontent.com/Frk0el5MaEB1cBxXSxbI_saeQDwYgdvyPoEoPrERfClY6Kx8lR3OnqWCcOsQ-StvadFP=s32
         url: https://www.sti.jp/en/index.html
-        description: Delivering "the world's most enjoyable" driving experience.
+        description: SUBARU TECNICA INTERNATIONAL
         tags: STI,SUBARU 
       - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
