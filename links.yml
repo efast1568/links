@@ -54,7 +54,7 @@ categories:
         url: https://discuss-cn.pipecraft.net/
         description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
         tags: RSS,Atom,聚合新聞,內容訂閱
-  - category: 官方網站 - Official
+  - category: 官方網站(Official)
     icon: linecons-doc
     links:
       - title: Subaru Taiwan
