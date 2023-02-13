@@ -19,7 +19,7 @@ og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
 # 主頁 URL
 home_url: https://subarist.net
 # GitHub 鏈接（可選）
-github_url: https://github.com/geneasy/links
+github_url: https://github.com/efast1568/links
 # 網站 about 鏈接（可選）
 about_url: https://www.subarist.net
 # 交換鏈接的 URL
@@ -144,21 +144,21 @@ categories:
   - category: 官方網站
     icon: linecons-doc
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一個類似 Hacker News, Lobsters 的鏈接分享社區
-        tags: 程序員,社區
-      - title: BestXTools 社區
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社區是一個發現並分享有趣，有創意，免費、好用的工具的非商業性質的，獨立的，開放的社區。
-        tags: 在線工具,周刊,社區
-      - title: Pipecraft 社區
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
-        tags: RSS,Atom,聚合新聞,內容訂閱
+      - title: Subaru Taiwan
+        logo: https://www.subaru.asia/assets/images/logos/subaru.png
+        url: https://www.subaru.asia/tw/zh/home/
+        description: SUBARU SAWD 對稱式全時四輪驅動及Boxer Engine水平對臥引擎，提供出色的穩定性、駕駛性能與操控性。
+        tags: SUBARU,SAWD,Boxer
+      - title: MAZDA Motor Taiwan
+        logo: https://www.mazda.com.tw/globalassets/logos/mazda_logo_global_nav_new.png
+        url: https://www.mazda.com.tw/
+        description: 揉合職人工藝與日式美學，探索自我獨創之道。以誠心款待的精神，創造人馬一体的駕馭樂趣。
+        tags: MAZDA,人馬一體,轉子,Roadster
+      - title: SUBARU TECNICA INTERNATIONAL ( STI )
+        logo: https://www.sti.jp/assets/img/logo_sti.png
+        url: https://www.sti.jp/en/index.html
+        description: Delivering "the world's most enjoyable" driving experience.
+        tags: STI,SUBARU 
       - title: 聚客盒
         logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
         url: https://jukebox.pipecraft.net/
