@@ -131,7 +131,7 @@ categories:
         description: 公開社團 6.6 萬位成員
         tags: GC8,GF8,IMPREZA
       - title: SUBARU SUYA CLUB (快樂舒壓.TW)
-        logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png
+        logo: https://lh3.googleusercontent.com/2f3ZSdodaQ6YKI6doeBae3wu5aQ946K96SvtVkShXpTcSKAH10dnV51a9bi4qbzrNaBNqtg=s85
         url: https://www.facebook.com/groups/SUYACLUB/
         description: 私密社團 3.0 萬位成員
         tags: SUYA,舒壓 
@@ -146,10 +146,11 @@ categories:
   - category: 部落格
     icon: linecons-doc
     links:
-      - title: 等你來加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/links/issues
-        description: 快來交換友情鏈接吧
+      - title: 阿北的機器世界
+        logo: https://i0.wp.com/www.motor-uncle.net/wp-content/uploads/2022/05/cropped-channels4_profile.jpg?fit=32%2C32&ssl=1
+        url: https://www.motor-uncle.net/
+        description: 喜歡車子的朋友一起來玩!!(亞倫視覺)
+        tags: Motor-uncle,網紅,阿北 
       - title: 等你來加➕
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
