@@ -80,8 +80,8 @@ categories:
         description: 聚合程序員博客的寶盒，是一個非商業性質的，獨立的，開放的，程序員社區。
         tags: 程序員,博客,社區
         
-  - category: 網路論壇 / Forum
-    icon: linecons-star
+  - category: 網路論壇/Forum
+    icon: linecons-doc
     links:
       - title: DTO
         logo: https://dto.pipecraft.net/apple-touch-icon-144.png
