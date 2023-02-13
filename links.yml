@@ -139,7 +139,7 @@ categories:
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
-  - category: 部落格Blog
+  - category: 部落格
     icon: linecons-doc
     links:
       - title: 等你來加➕
@@ -158,7 +158,7 @@ categories:
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
-  - category: 友情推薦
+  - category: FLARUM相關
     icon: linecons-doc
     links:
       - title: WebStack.cc - 設計師網址導航
