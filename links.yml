@@ -31,6 +31,7 @@ ga_tracking_code_id: G-FQPN3KGKWP
 ################
 categories:
   - category: 最新上架
+    hide_menu: true
     icon: linecons-star
     links:
       - title: DTO
@@ -54,7 +55,6 @@ categories:
         description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
         tags: RSS,Atom,聚合新聞,內容訂閱
   - category: 推薦
-    hide_menu: true
     icon: linecons-star
     links:
       - title: DTO
@@ -77,6 +77,29 @@ categories:
         url: https://zh.pipecraft.net/
         description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
         tags: 網址導航,中文垂直社區,微社區,垂直網址導航
+  - category: 官方網站
+    icon: linecons-doc
+    links:
+      - title: Subaru Taiwan
+        logo: https://www.subaru.asia/assets/images/logos/subaru.png
+        url: https://www.subaru.asia/tw/zh/home/
+        description: SUBARU SAWD 對稱式全時四輪驅動及Boxer Engine水平對臥引擎，提供出色的穩定性、駕駛性能與操控性。
+        tags: SUBARU,SAWD,Boxer
+      - title: MAZDA Motor Taiwan
+        logo: https://www.mazda.com.tw/globalassets/logos/mazda_logo_global_nav_new.png
+        url: https://www.mazda.com.tw/
+        description: 揉合職人工藝與日式美學，探索自我獨創之道。以誠心款待的精神，創造人馬一体的駕馭樂趣。
+        tags: MAZDA,人馬一體,轉子,Roadster
+      - title: SUBARU TECNICA INTERNATIONAL ( STI )
+        logo: https://www.sti.jp/assets/img/logo_sti.png
+        url: https://www.sti.jp/en/index.html
+        description: Delivering "the world's most enjoyable" driving experience.
+        tags: STI,SUBARU 
+      - title: 聚客盒
+        logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
+        url: https://jukebox.pipecraft.net/
+        description: 聚合程序員博客的寶盒，是一個非商業性質的，獨立的，開放的，程序員社區。
+        tags: 程序員,博客,社區
   - category: 分類(一)
     icon: linecons-doc
     links:
@@ -135,29 +158,6 @@ categories:
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
-  - category: 官方網站
-    icon: linecons-doc
-    links:
-      - title: Subaru Taiwan
-        logo: https://www.subaru.asia/assets/images/logos/subaru.png
-        url: https://www.subaru.asia/tw/zh/home/
-        description: SUBARU SAWD 對稱式全時四輪驅動及Boxer Engine水平對臥引擎，提供出色的穩定性、駕駛性能與操控性。
-        tags: SUBARU,SAWD,Boxer
-      - title: MAZDA Motor Taiwan
-        logo: https://www.mazda.com.tw/globalassets/logos/mazda_logo_global_nav_new.png
-        url: https://www.mazda.com.tw/
-        description: 揉合職人工藝與日式美學，探索自我獨創之道。以誠心款待的精神，創造人馬一体的駕馭樂趣。
-        tags: MAZDA,人馬一體,轉子,Roadster
-      - title: SUBARU TECNICA INTERNATIONAL ( STI )
-        logo: https://www.sti.jp/assets/img/logo_sti.png
-        url: https://www.sti.jp/en/index.html
-        description: Delivering "the world's most enjoyable" driving experience.
-        tags: STI,SUBARU 
-      - title: 聚客盒
-        logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
-        url: https://jukebox.pipecraft.net/
-        description: 聚合程序員博客的寶盒，是一個非商業性質的，獨立的，開放的，程序員社區。
-        tags: 程序員,博客,社區
   - category: 友情推薦
     icon: linecons-doc
     links:
