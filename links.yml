@@ -32,8 +32,8 @@ ga_tracking_code_id: G-FQPN3KGKWP
 ################
 categories:
   - category: 最新上架/New
-    hide_menu: true
     icon: linecons-star
+   # hide_menu: true
     links:
       - title: DTO
         logo: https://dto.pipecraft.net/apple-touch-icon-144.png
@@ -56,7 +56,7 @@ categories:
         description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
         tags: RSS,Atom,聚合新聞,內容訂閱
 
-- category: 官方網站/Official
+- category: 官方網站 / Official
     icon: linecons-doc
     links:
       - title: Subaru Taiwan
