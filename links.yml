@@ -95,11 +95,10 @@ categories:
         url: https://www.sti.jp/en/index.html
         description: Delivering "the world's most enjoyable" driving experience.
         tags: STI,SUBARU 
-      - title: 聚客盒
-        logo: https://jukebox.pipecraft.net/assets/favicon-brhoyfnr.png
-        url: https://jukebox.pipecraft.net/
-        description: 聚合程序員博客的寶盒，是一個非商業性質的，獨立的，開放的，程序員社區。
-        tags: 程序員,博客,社區
+      - title: 等你來加➕
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
+        url: https://github.com/geneasy/links/issues
+        description: 快來交換友情鏈接吧
   - category: 網路論壇
     icon: linecons-doc
     links:
@@ -158,7 +157,7 @@ categories:
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
-  - category: FLARUM相關
+  - category: Flarum
     icon: linecons-doc
     links:
       - title: WebStack.cc - 設計師網址導航
