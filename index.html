@@ -670,6 +670,12 @@
                 </div>
             </footer>
         </div>
+        <button onclick="scrollToTop()" class="scroll-top">
+        <i class="fas fa-angle-double-up" id="dblArrowUp"></i>
+        </button>
+        <button onclick="scrollToBottom()" class="scroll-bottom">
+        <i class="fas fa-angle-double-down" id="dblArrowDown"></i>
+        </button>
     </div>
     <!-- 锚点平滑移动 -->
     <script type="text/javascript">
@@ -750,6 +756,36 @@
       }
     });
     </script>
+    <!-- Scroll Scripts -->
+    <script>
+    function scrollToTop() {
+          window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+     }
+    function scrollToBottom() {
+          window.scrollTo({
+		  left: 0,
+          top: document.body.scrollHeight,
+          behavior: "smooth",
+        });
+    }
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 50) {
+            $(".scroll-top").fadeIn("fast");
+        }
+        else if ($(window).scrollTop() == 0) {
+            $(".scroll-top").fadeOut("fast");
+        }
+		        if ($(window).scrollTop() > 50) {
+            $(".scroll-bottom").fadeIn("fast");
+        }
+        else if ($(window).scrollTop() == 0) {
+            $(".scroll-bottom").fadeOut("fast");
+        }
+    });
+    </script>
     <!-- Bottom Scripts -->
     <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/TweenMax.min.js"></script>
@@ -766,7 +802,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-FQPN3KGKWP');
     </script>
 </body>
