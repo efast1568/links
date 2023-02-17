@@ -766,17 +766,17 @@
         });
     }
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 50) {
-            $(".scroll-top").fadeIn("fast");
+        if ($(window).scrollTop() > 50 ) {
+            $(".scroll-top").show();
         }
-        else if ($(window).scrollTop() == 0) {
-            $(".scroll-top").fadeOut("fast");
+        else if ($(window).scrollTop() == 0  ) {
+            $(".scroll-top").hide();
         }
 		        if ($(window).scrollTop() > 50) {
-            $(".scroll-bottom").fadeIn("fast");
+            $(".scroll-bottom").show();
         }
         else if ($(window).scrollTop() == 0) {
-            $(".scroll-bottom").fadeOut("fast");
+            $(".scroll-bottom").hide();
         }
     });
     </script>
