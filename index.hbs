@@ -316,17 +316,15 @@
     $(window).scroll(function () {
         if ($(window).scrollTop() > 50 ) {
             $(".scroll-top").show();
+			$(".scroll-bottom").show();
+			$(".sidebar-menu").css('box-shadow', '0 2px 6px rgb(0 0 0 / 50%)'); 
         }
         else if ($(window).scrollTop() == 0  ) {
             $(".scroll-top").hide();
+			$(".scroll-bottom").hide();
+			$(".sidebar-menu").css('box-shadow', 'none');
         }
-		        if ($(window).scrollTop() > 50) {
-            $(".scroll-bottom").show();
-        }
-        else if ($(window).scrollTop() == 0) {
-            $(".scroll-bottom").hide();
-        }
-    });
+	 });
     </script>
     <!-- Bottom Scripts -->
     <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/bootstrap.min.js"></script>
