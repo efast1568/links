@@ -7,9 +7,9 @@ title: SUBARIST.NET
 # 網站 LOGO（可選）
 # logo: https://www.subarist.net/assets/logo-yzli5vki.png
 # 友情鏈接頁面關鍵字（可選）
-keywords: 資源連結, GenEasy, Github, Github Pages, SSG
+keywords: 資源連結, Subarist, Subaru, TIFC, TIC, LTC, 速霸陸
 # 友情鏈接描述（可選）
-description: 網路資源連結靜態頁面。
+description: 網路資源導航頁面。
 # 友情鏈接頁面 URL（可選）
 url: https://www.subarist.net/links/
 # Favicon（可選）
@@ -33,50 +33,40 @@ categories:
   - category: 最新上架
     icon: fa-folder-plus
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一個類似 Hacker News, Lobsters 的鏈接分享社區
-        tags: 程序員,社區
-      - title: BestXTools 社區
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社區是一個發現並分享有趣，有創意，免費、好用的工具的非商業性質的，獨立的，開放的社區。
-        tags: 在線工具,周刊,社區
-      - title: 等你來加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/links/issues
-        description: 快來交換友情鏈接吧
-        tags: 程序員,生活,創意
-      - title: Pipecraft 社區
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
-        tags: RSS,Atom,聚合新聞,內容訂閱
+      - title: Play With LEGACY RS
+        logo: https://a15ff11300g.sakura.ne.jp/img/title.01.gif
+        url: https://a15ff11300g.sakura.ne.jp/
+        description:  BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。
+        tags: 各代型錄,日文
+      - title: legacycentral bbs - LCBBS
+        logo: https://bbs.legacycentral.org/styles/Multi-Design/theme/images/multi-design.png
+        url: https://bbs.legacycentral.org/
+        description: A forum for 89-94 BC-BF(BJ) Legacy Owners and Fans
+        tags: 老雷論壇,BC-BF(BJ)
+      - title: Auto-Brochures Subaru
+        logo: https://www.auto-brochures.com/images/auto-brochures.png
+        url: https://www.auto-brochures.com/subaru.html
+        description: Subaru car pdf sales brochures, catalogs and electronic media.
+        tags: 各代型錄,英文
   - category: 推薦
     hide_menu: true
     icon: fa-heart-circle-plus
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一個類似 Hacker News, Lobsters 的鏈接分享社區
-        tags: 程序員,社區
-      - title: BestXTools 社區
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社區是一個發現並分享有趣，有創意，免費、好用的工具的非商業性質的，獨立的，開放的社區。
-        tags: 在線工具,周刊,社區
-      - title: Pipecraft 社區
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
-        tags: RSS,Atom,聚合新聞,內容訂閱
-      - title: 縱橫網址導航
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">縱</text></svg>
-        url: https://zh.pipecraft.net/
-        description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
-        tags: 網址導航,中文垂直社區,微社區,垂直網址導航
+	  - title: 阿北的機器世界
+        logo: https://i0.wp.com/www.motor-uncle.net/wp-content/uploads/2022/05/cropped-channels4_profile.jpg?fit=32%2C32&ssl=1
+        url: https://www.motor-uncle.net/
+        description: 喜歡車子的朋友一起來玩!!(亞倫視覺)
+        tags: Motor-uncle,網紅,阿北 
+      - title: Play With LEGACY RS
+        logo: https://a15ff11300g.sakura.ne.jp/img/title.01.gif
+        url: https://a15ff11300g.sakura.ne.jp/
+        description:  BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。
+        tags: 各代型錄,日文
+      - title: Auto-Brochures Subaru
+        logo: https://www.auto-brochures.com/images/auto-brochures.png
+        url: https://www.auto-brochures.com/subaru.html
+        description: Subaru car pdf sales brochures, catalogs and electronic media.
+        tags: 各代型錄,英文
   - category: 官方網站
     icon: fa-globe
     links:
@@ -99,14 +89,14 @@ categories:
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
-  - category: 網路論壇
+  - category: 網路資源
     icon: fa-discord
     links:
       - title: NASIOC
         logo: https://m.media-amazon.com/images/I/71wWqWW+4oL.png
         url: https://forums.nasioc.com/
         description: North American Subaru Impreza Owners Club  
-        tags: NASIOC,IMPREZA 
+        tags: NASIOC,重磅論譠 
       - title: Subaru Outback Forums 
         logo: https://images.platforum.cloud/logos/subaruoutback_org.svg
         url: https://www.subaruoutback.org/
@@ -125,8 +115,23 @@ categories:
       - title: Subaru Legacy International
         logo: https://images.platforum.cloud/logos/subaruxvforum_com.svg
         url: https://sl-i.net/FORUM/showthread.php?18087
-        description: 完整的技術、零件手冊資源。A home for die hard Legacy, Outback, and Baja fans!
-        tags: LEGACY,OUTBACK,BAJA 
+        description: A home for die hard Legacy, Outback, and Baja fans!
+        tags: 零件手冊,整備手冊
+      - title: Play With LEGACY RS
+        logo: https://a15ff11300g.sakura.ne.jp/img/title.01.gif
+        url: https://a15ff11300g.sakura.ne.jp/
+        description:  BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。
+        tags: 各代型錄,日文
+      - title: legacycentral bbs - LCBBS
+        logo: https://bbs.legacycentral.org/styles/Multi-Design/theme/images/multi-design.png
+        url: https://bbs.legacycentral.org/
+        description: A forum for 89-94 BC-BF(BJ) Legacy Owners and Fans
+        tags: 老雷論壇,BC-BF(BJ)
+      - title: Auto-Brochures Subaru
+        logo: https://www.auto-brochures.com/images/auto-brochures.png
+        url: https://www.auto-brochures.com/subaru.html
+        description: Subaru car pdf sales brochures, catalogs and electronic media.
+        tags: 各代型錄,英文 		
   - category: 社群媒體
     icon: fa-icons
     links:
@@ -160,14 +165,6 @@ categories:
         logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
         url: https://github.com/geneasy/links/issues
         description: 快來交換友情鏈接吧
-      - title: 等你來加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/links/issues
-        description: 快來交換友情鏈接吧
-      - title: 等你來加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/links/issues
-        description: 快來交換友情鏈接吧
   - category: Flarum
     icon: fa-code
     links:
@@ -176,18 +173,8 @@ categories:
         url: https://flarum.org/
         description: Flarum is the next-generation forum software that makes online discussion fun. It's simple, fast, and free.。
         tags: Flarum,Forum,PHP
-      - title: 縱橫網址導航
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">縱</text></svg>
-        url: https://zh.pipecraft.net/
-        description: 收集小而美的中文垂直社區，微社區，垂直網址導航的網址導航網站。
-        tags: 網址導航,中文垂直社區,微社區,垂直網址導航
       - title: Pipecraft 社區
         logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
         url: https://discuss-cn.pipecraft.net/
         description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
         tags: RSS,Atom,聚合新聞,內容訂閱
-      - title: GenEasy
-        logo: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
-        url: https://github.com/geneasy/geneasy
-        description: A command line tool that can easily generate HTML, Markdown documents, etc.
-        tags: cli,tools
