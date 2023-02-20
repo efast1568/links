@@ -200,7 +200,14 @@
             <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
             <!-- Or class "fixed" to  always fix the footer to the end of page -->
         </div>
-        <footer class="footer">
+        <button onclick="scrollToTop()" class="scroll-top">
+        <i class="fas fa-angle-double-up" id="dblArrowUp"></i>
+        </button>
+        <button onclick="scrollToBottom()" class="scroll-bottom">
+        <i class="fas fa-angle-double-down" id="dblArrowDown"></i>
+        </button>
+    </div>
+            <footer class="footer">
 <div class="container">
 
 <div class="bloq">
@@ -338,13 +345,6 @@ div {
 }
 }
 </style>
-        <button onclick="scrollToTop()" class="scroll-top">
-        <i class="fas fa-angle-double-up" id="dblArrowUp"></i>
-        </button>
-        <button onclick="scrollToBottom()" class="scroll-bottom">
-        <i class="fas fa-angle-double-down" id="dblArrowDown"></i>
-        </button>
-    </div>
     <!-- 锚点平滑移动 -->
     <script type="text/javascript">
     $(document).ready(function() {
