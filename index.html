@@ -602,18 +602,144 @@
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
             <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
             <!-- Or class "fixed" to  always fix the footer to the end of page -->
-            <footer class="main-footer sticky footer-type-1">
-                <div class="footer-inner">
-                    <!-- Add your copyright text here -->
-                    <div class="footer-text">
-                        &copy; 2017-2021
-                        <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>WebStack</strong></a> design by <a href="https://www.viggoz.com" target="_blank"><strong>Viggo</strong></a>
-                    </div><br>
-                    <div class="footer-text">
-                        Powered by <a href="https://github.com/geneasy/geneasy" target="_blank"><strong>GenEasy</strong></a> @ <a href="https://www.pipecraft.net/" target="_blank"><strong>Pipecraft</strong></a>
-                    </div>
-                </div>
-            </footer>
+<footer class="footer">
+<div class="container">
+
+<div class="bloq">
+<div class=" flex-2">
+<h2 class="title">SUBARIST.NET</h2>
+<p>基於Flarum，一個優雅的輕論壇軟件，簡約界面回歸討論區本質。在這裡你可以談天說地，可以在最短的時間收集靈感，讓在線交流變得更加輕鬆愉快。集成LTC / TIC / TIFC資源，以供先輩後人追思與懷念。</p>
+<ul class="social-icon">
+<a href="https://www.facebook.com/p2000.impreza" target="_blank" class="social"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+<a href="https://twitter.com/KaiYang86975520" target="_blank" class="social"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/efast1568/" target="_blank" class="social"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+</ul>
+</div>
+<div class="bloq-3">
+<h2 class="title">關於我們</h2>
+<span class="acount-icon">
+<a href="https://www.subarist.net/p/2-about"><i class="fas fa-file" aria-hidden="true"></i> 網站沿革</a>
+ <a href="https://www.subarist.net/p/1-privacy"><i class="fas fa-file" aria-hidden="true"></i> 隱私條款</a>
+</span>
+</div>
+<div class="bloq-3">
+<h2 class="title">友站連結</h2>
+<span class="acount-icon">
+<a href="https://www.motor-uncle.net/" target="_blank"><i class="fas fa-link" aria-hidden="true"></i> 阿北的機器世界</a>
+<a href="https://www.facebook.com/%E5%8B%81%E5%A8%81%E5%87%B9%E7%97%95%E9%85%92%E7%AA%A9%E4%BF%AE%E5%BE%A9-103601814313374" target="_blank"><i class="fas fa-link" aria-hidden="true"></i> 勁威凹痕酒窩修復</a>
+</span>
+</div>
+<div class="bloq-3">
+<h2 class="title">資源分享</h2>
+<span class="acount-icon">
+<a href="https://discuss.flarum.org/" target="_blank"><i class="fas fa-code" aria-hidden="true"></i> Flarum Community</a>
+<a href="https://github.com/flarum-lang/chinese-traditional" target="_blank"><i class="fas fa-code" aria-hidden="true"></i> Github Flarum 正體中文計劃</a>
+<a href="https://discuss.flarum.org.cn/" target="_blank"><i class="fas fa-code" aria-hidden="true"></i> Flarum 中文社區</a>
+</span>
+</div>
+</div>
+</footer>
+<div class="down-footer">
+<div class="foot-block">
+<span class="texto-centro">© 2004-2023&emsp;Some About Taiwan Subaru.</span>
+</div>
+</div>
+
+<style>
+.footer .title {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.footer .social-icon {
+    padding: 0;
+    margin: 0;
+}
+.footer .social-icon a {
+    display: inline-block;
+    font-size: 23px;
+    padding: 0 5px;
+}
+.footer .acount-icon a {
+    display: block;
+     font-size: 14px;
+    padding: 1px 5px;
+    text-decoration: none;
+}
+.foot-block {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 10px 0 20px;
+    font-size: 14px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.bloq>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 150%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+.bloq {
+
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+@media (min-width:768px) {
+    .bloq-3 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+.flex-2 {
+  flex-basis: 35%;
+ flex-grow: 1;
+  flex-shrink: 1;
+  margin-right:30px;
+  font-size:14px;
+}
+.container {
+    position: relative;
+    z-index: 1;
+	    padding: 0px 20px;
+	    margin-top: 50px;
+		border-block-start: 1px solid #38444d;
+		width: 95%;
+}
+}
+
+@media (max-width:768px) {
+.flex-2 {
+  flex-basis: 35%;
+  flex-grow: 1;
+  flex-shrink: 1;
+   font-size:14px;
+}
+.container {
+    display: inline-block;
+    margin-top: 100px;
+    border-block-start: 1px solid #38444d;
+}
+.footer {
+    padding: 0 0 25px;
+    width: 93%;
+    margin: auto;
+}
+}
+</style>
         </div>
         <button onclick="scrollToTop()" class="scroll-top">
         <i class="fas fa-angle-double-up" id="dblArrowUp"></i>
