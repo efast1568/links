@@ -19,7 +19,6 @@
 <link href="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/css/nav.css" rel="stylesheet">
 <link href="https://www.subarist.net/assets/subarist-link.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-
 <meta content="article" property="og:type">
 <meta content="https://www.subarist.net/links/" property="og:url">
 <meta content="網址導航 - SUBARIST.NET" property="og:title">
@@ -45,6 +44,10 @@
 display: none;
 }}
 
+.navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
 .mobile-icon {
     width: 15px;
@@ -64,7 +67,7 @@ display: none;
 .dropdown-menu {
 	background: transparent;
     border: none;
-    margin-top: -20px;
+    margin-top: 0px;
     margin-bottom: 15px;
     padding-left: 15px;
 }
@@ -73,7 +76,7 @@ display: none;
 
     font-size: 15px;
     font-weight: bold;
-	padding: 15px;
+	padding: 25px;
 }
 
 
@@ -137,6 +140,13 @@ padding: 8px;
 		  
 		  @media (max-width: 992px) {
 
+img.Header-logo {
+    height: 29px;
+    margin-top: -39px;
+    margin-left: 49px;
+}
+
+
 a#navbarDropdown {
     margin-bottom: 15px;
 }
@@ -160,7 +170,7 @@ a#navbarDropdown {
 
 	         .navbar-collapse {
 	             position: fixed;
-	             top: 50px;
+	             top: 0px;
 	             left: 0;
 	             padding-left: 15px;
 	             padding-right: 15px;
@@ -202,16 +212,12 @@ a#navbarDropdown {
 	</style>
 </head>
 <body class="page-body">
-
 <nav class="navbar navbar-expand-lg bg-info navbar-dark fixed-top">
 <div class="container">
-<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button" >
-<i class="fa-bars"><img src="https://www.subarist.net/assets/favicon-3zw7clrx.png" class="mobile-logo"></i></button>
-
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"> 
+<i class="fa-bars"  ><img src="https://www.subarist.net/assets/favicon-3zw7clrx.png" class="mobile-logo"></i></button>
 <div class=" collapse navbar-collapse " id="navbarSupportedContent">
 <a class="navbar-brand" href="#" id="home-link"><img src="https://www.subarist.net/assets/logo-yzli5vki.png" class="Header-logo"></a>
-
-
 <ul class="navbar-nav mr-auto">
 <li class="nav-item">
 <a class="nav-link mobile-home" href="https://www.subarist.net"><i aria-hidden="true" class="icon  fa-solid fa-house-user mobile-icon"></i><span class="LinksButton-title">HOME</span></a>
@@ -219,12 +225,8 @@ a#navbarDropdown {
 <li class="nav-item">
 <a class="nav-link mobile-blog" href="https://www.subarist.net/blog"><i aria-hidden="true" class="icon  fa-sharp fa-solid fa-blog mobile-icon"></i><span class="LinksButton-title">BLOG</span></a>
 </li>
-
-
 <li class="nav-item dropdown active">
-<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i aria-hidden="true" class="icon  fa-solid fa-link mobile-icon"></i><span class="LinksButton-title">LINK &nbsp;</span></a>
-
-
+<i class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i aria-hidden="true" class="icon  fa-solid fa-link mobile-icon"></i><span class="LinksButton-title">LINK &nbsp;</span></i>
 <ul class="dropdown-menu">
 <li>
 <a class="smooth" href="#最新上架"><i class="fa-folder-plus mobile-icon"></i> <span class="title">最新上架</span></a>
@@ -246,16 +248,13 @@ a#navbarDropdown {
 </li>
 </ul>
 </li>
-
 </ul>
 <form class="form-inline">
 <input aria-label="Search" class="form-control" placeholder="Search" type="search"> <button class="btn btn-outline-light" type="submit">搜尋</button>
 </form>
 </div>
 </nav>
-
 <div class="page-container">
-
 <div class="sidebar-menu toggle-others fixed">
 <div class="sidebar-menu-inner">
 <ul class="main-menu" id="main-menu">
@@ -286,9 +285,7 @@ a#navbarDropdown {
 </ul>
 </div>
 </div>
-
 <div class="main-content">
-
 <h4 class="text-gray"><i class="fa-cloudscale" id="最新上架" style="margin-right: 7px;"></i>最新上架</h4>
 <div class="row">
 <div class="col-sm-5">
@@ -619,8 +616,6 @@ a#navbarDropdown {
 </div>
 </div>
 </div>
-
-
 <footer class="footer">
 <div class="footer-mobile">
 <div class="bloq">
@@ -633,7 +628,6 @@ a#navbarDropdown {
 <a href="https://www.instagram.com/efast1568/" target="_blank" class="social"><i class="fab fa-instagram" aria-hidden="true"></i></a>
 </ul></br>
 </div>
-
 <div class="bloq-3">
 <h2 class="title">關於我們</h2>
 <span class="acount-icon">
@@ -649,9 +643,6 @@ a#navbarDropdown {
 </div>
 </div>
 </footer >
-
-
-
 </div>
 <footer class="footer">
 <div class="footer-table">
@@ -694,7 +685,7 @@ a#navbarDropdown {
 </div>
 </div>
 </footer >
-<button-scroll class="scroll-top" onclick="scrollToTop()"><i class="fas fa-angle-double-up" id="dblArrowUp"></i></button-scroll> 
+<button-scroll class="scroll-top" onclick="scrollToTop()"><i class="fas fa-angle-double-up" id="dblArrowUp"></i></button-scroll>
 <button-scroll class="scroll-bottom" onclick="scrollToBottom()"><i class="fas fa-angle-double-down" id="dblArrowDown"></i></button-scroll>
 <style>
 
@@ -732,6 +723,7 @@ a#navbarDropdown {
 
 *, ::after, ::before {
     box-sizing: border-box;
+	font-style: normal;
 }
 div {
     display: block;
@@ -892,9 +884,13 @@ div {
 	         });
 			 
 			 			 //點擊後關閉菜單 
+$(function(){ 
+     var navMain = $(".navbar-collapse");
 
-
-
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
 
 
 
@@ -928,7 +924,6 @@ div {
 	                 
 	             }
 	          });
-			  
 
 			  
 	</script>
@@ -940,7 +935,7 @@ div {
 	             gtag('js', new Date());
 	             gtag('config', 'G-FQPN3KGKWP');
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/xenon-toggles.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/xenon-custom.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/lozad.js"></script>
