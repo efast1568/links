@@ -44,9 +44,33 @@
     max-width: 1200px;
 }}
 
+@media (min-width: 768px){
+.dropdown {
+display: none;
+}}
+
+
+.mobile-icon {
+    width: 15px;
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.dropdown-menu>li>a>i {
+    margin-right: 5px;
+    display: inline-flex;
+    justify-content: center;
+    width: 15px;
+    margin: 8px;
+}
+
 .dropdown-menu {
-    background: transparent;
+	background: transparent;
     border: none;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    padding-left: 15px;
 }
 
 .navbar-collapse {
@@ -116,6 +140,10 @@ padding: 8px;
 }
 		  
 		  @media (max-width: 992px) {
+
+a#navbarDropdown {
+    margin-bottom: 15px;
+}
 		  
 		  nav.navbar {
     padding: 0;
@@ -185,52 +213,51 @@ padding: 8px;
 <i class="fa-bars"><img src="https://www.subarist.net/assets/favicon-3zw7clrx.png" class="mobile-logo"></i></button>
 
 <div class=" collapse navbar-collapse " id="navbarSupportedContent">
-<a class="navbar-brand" data-trigger="focus" href="#" id="home-link"><img src="https://www.subarist.net/assets/logo-yzli5vki.png" class="Header-logo"></a>
+<a class="navbar-brand" href="#" id="home-link"><img src="https://www.subarist.net/assets/logo-yzli5vki.png" class="Header-logo"></a>
 
 
 <ul class="navbar-nav mr-auto">
 <li class="nav-item">
-
-<a class="nav-link" href="https://www.subarist.net/blog"><i aria-hidden="true" class="icon  fa-sharp fa-solid fa-blog  Button-icon LinksButton-icon"></i><span class="LinksButton-title">BLOG</span></a>
-
+<a class="nav-link mobile-home" href="https://www.subarist.net"><i aria-hidden="true" class="icon  fa-solid fa-house-user mobile-icon"></i><span class="LinksButton-title">HOME</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link mobile-blog" href="https://www.subarist.net/blog"><i aria-hidden="true" class="icon  fa-sharp fa-solid fa-blog mobile-icon"></i><span class="LinksButton-title">BLOG</span></a>
 </li>
 
 
 <li class="nav-item dropdown active">
-<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i aria-hidden="true" class="icon  fa-solid fa-link Button-icon LinksButton-icon"></i>LINK</a>
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i aria-hidden="true" class="icon  fa-solid fa-link mobile-icon"></i><span class="LinksButton-title">LINK &nbsp;</span></a>
 
 
 <ul class="dropdown-menu">
 <li>
-<a class="smooth" href="#最新上架"><i class="fa-folder-plus"></i> <span class="title">最新上架</span></a>
+<a class="smooth" href="#最新上架"><i class="fa-folder-plus mobile-icon"></i> <span class="title">最新上架</span></a>
 </li>
 <li>
-<a class="smooth" href="#官方網站"><i class="fa-globe"></i> <span class="title">官方網站</span></a>
+<a class="smooth" href="#官方網站"><i class="fa-globe mobile-icon"></i> <span class="title">官方網站</span></a>
 </li>
 <li>
-<a class="smooth" href="#網路資源"><i class="fa-discord"></i> <span class="title">網路資源</span></a>
+<a class="smooth" href="#網路資源"><i class="fa-discord mobile-icon"></i> <span class="title">網路資源</span></a>
 </li>
 <li>
-<a class="smooth" href="#社群媒體"><i class="fa-icons"></i> <span class="title">社群媒體</span></a>
+<a class="smooth" href="#社群媒體"><i class="fa-icons mobile-icon"></i> <span class="title">社群媒體</span></a>
 </li>
 <li>
-<a class="smooth" href="#部落格"><i class="fa-blogger"></i> <span class="title">部落格</span></a>
+<a class="smooth" href="#部落格"><i class="fa-blogger mobile-icon"></i> <span class="title">部落格</span></a>
 </li>
 <li>
-<a class="smooth" href="#Flarum"><i class="fa-code"></i> <span class="title">Flarum</span></a>
+<a class="smooth" href="#Flarum"><i class="fa-code mobile-icon"></i> <span class="title">Flarum</span></a>
 </li>
 </ul>
 </li>
-<li class="nav-item">
-<a class="nav-link" href="#">Link</a>
-</li>
+
 </ul>
 <form class="form-inline">
 <input aria-label="Search" class="form-control" placeholder="Search" type="search"> <button class="btn btn-outline-light" type="submit">搜尋</button>
 </form>
 </div>
 </nav>
-</div>
+
 <div class="page-container">
 
 <div class="sidebar-menu toggle-others fixed">
@@ -599,7 +626,7 @@ padding: 8px;
 
 
 <footer class="footer">
-<div class="foot-mobile">
+<div class="footer-mobile">
 <div class="bloq">
 <div class=" flex-2">
 <h2 class="title">SUBARIST.NET</h2>
@@ -742,13 +769,13 @@ div {
     border-block-start: 1px solid #38444d;
 }
 
-.foot-mobile {
+.footer-mobile {
     border-block-start: 1px solid #38444d;
 }
 
 @media (min-width:768px) {
 
-.foot-mobile {
+.footer-mobile {
     display: none;
 }
     .bloq-3 {
@@ -784,11 +811,9 @@ div {
 }
 
 .footer-mobile {
-    padding: 0 0 25px;
-    width: 93%;
+    width: 97%;
     margin: auto;
- 
-}
+ }
 
 }
 	</style>
