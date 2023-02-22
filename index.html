@@ -44,7 +44,10 @@
     max-width: 1200px;
 }}
 
-
+.dropdown-menu {
+    background: transparent;
+    border: none;
+}
 
 .navbar-collapse {
 
@@ -178,11 +181,11 @@ padding: 8px;
 
 <nav class="navbar navbar-expand-lg bg-info navbar-dark fixed-top">
 <div class="container">
-<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button" >
 <i class="fa-bars"><img src="https://www.subarist.net/assets/favicon-3zw7clrx.png" class="mobile-logo"></i></button>
 
 <div class=" collapse navbar-collapse " id="navbarSupportedContent">
-<a class="navbar-brand" href="#" id="home-link"><img src="https://www.subarist.net/assets/logo-yzli5vki.png" class="Header-logo"></a>
+<a class="navbar-brand" data-trigger="focus" href="#" id="home-link"><img src="https://www.subarist.net/assets/logo-yzli5vki.png" class="Header-logo"></a>
 
 
 <ul class="navbar-nav mr-auto">
@@ -191,19 +194,30 @@ padding: 8px;
 <a class="nav-link" href="https://www.subarist.net/blog"><i aria-hidden="true" class="icon  fa-sharp fa-solid fa-blog  Button-icon LinksButton-icon"></i><span class="LinksButton-title">BLOG</span></a>
 
 </li>
-<li class="nav-item active">
-<a class="nav-link" href="https://www.subarist.net/links"><i aria-hidden="true" class="icon  fa-solid fa-link Button-icon LinksButton-icon"></i><span class="LinksButton-title">LINK</span></a>
 
-</li>
 
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">Dropdown</a>
+<li class="nav-item dropdown active">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i aria-hidden="true" class="icon  fa-solid fa-link Button-icon LinksButton-icon"></i>LINK</a>
+
+
 <ul class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="#">Action</a>
+<a class="smooth" href="#最新上架"><i class="fa-folder-plus"></i> <span class="title">最新上架</span></a>
 </li>
 <li>
-<a class="dropdown-item" href="#">Action</a>
+<a class="smooth" href="#官方網站"><i class="fa-globe"></i> <span class="title">官方網站</span></a>
+</li>
+<li>
+<a class="smooth" href="#網路資源"><i class="fa-discord"></i> <span class="title">網路資源</span></a>
+</li>
+<li>
+<a class="smooth" href="#社群媒體"><i class="fa-icons"></i> <span class="title">社群媒體</span></a>
+</li>
+<li>
+<a class="smooth" href="#部落格"><i class="fa-blogger"></i> <span class="title">部落格</span></a>
+</li>
+<li>
+<a class="smooth" href="#Flarum"><i class="fa-code"></i> <span class="title">Flarum</span></a>
 </li>
 </ul>
 </li>
@@ -249,7 +263,9 @@ padding: 8px;
 </ul>
 </div>
 </div>
+
 <div class="main-content">
+
 <h4 class="text-gray"><i class="fa-cloudscale" id="最新上架" style="margin-right: 7px;"></i>最新上架</h4>
 <div class="row">
 <div class="col-sm-5">
@@ -853,6 +869,15 @@ div {
 	             window.open(url, "_blank");
 	           }
 	         });
+			 
+			 			 //點擊後關閉菜單 
+
+
+
+
+
+
+
 	</script>
 <script>
 	         function scrollToTop() {
@@ -882,6 +907,9 @@ div {
 	                 
 	             }
 	          });
+			  
+
+			  
 	</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQPN3KGKWP">
 	</script>
