@@ -33,16 +33,136 @@
 @media (min-width: 992px) and (max-width: 1199.98px){
 .container {
     width: 992px;
-}}
+}
+
+}
 @media (min-width: 1200px){
 .container {
     max-width: 1200px;
 }}
 
+@media (max-width: 992px){
+ .page-container .sidebar-menu .sidebar-menu-inner .main-menu {
+    display: none;
+    margin-bottom: 0;
+}}
+
+
+
+
+
 @media (min-width: 768px){
 .dropdown {
 display: none;
-}}
+}
+.mobile-add {
+    display: none;
+}
+
+}
+	.sidebar-menu .logo-env .logo {
+		margin-bottom: 5px;
+		margin-left: 13px;
+		margin-top: -24px;
+	}
+
+	.sidebar-menu .main-menu a {
+		font-size: 15px;
+		padding: 12px 40px 12px 5px;
+        border-bottom: none;
+	}
+	.sidebar-menu .main-menu a>i {
+    width: 15px;
+    display: inline-flex;
+    justify-content: center;
+    }
+	.sidebar-menu .main-menu {
+		padding-left: 60px;
+		margin-top: 30px;
+	}
+
+	.box2 {
+		height: 135px;
+		margin-top: 15px;
+	}
+
+	.scroll-top {
+    right: 18px;
+    position: fixed;
+    bottom: 105px;
+    z-index: 99;
+    outline: none;
+    background-color: rgba(0,0,0,0.5) !important;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 12px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+	font-size: 16px;
+	color: #ddd;
+    display:none;
+}	
+
+.scroll-bottom {
+    right: 18px;
+    position: fixed;
+    bottom: 60px;
+    z-index: 99;
+    outline: none;
+    background-color: rgba(0,0,0,0.5) !important;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 12px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+	font-size: 16px;
+	color: #ddd;
+	display:none;
+}
+
+.sidebar-menu.fixed .sidebar-menu-inner {
+	left: auto;
+	position: sticky;
+    margin-left: 3px;
+}
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Ubuntu, Cantarell, Oxygen, Roboto, Helvetica, Arial, sans-serif;
+	line-height: 1.55;
+}
+
+.overflowClip_1 {
+	margin-bottom: 2px;
+}
+.overflowClip_2 {
+	-webkit-line-clamp: 3;
+	margin-bottom: 2px!important;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.fade {
+	display: none!important;
+}
+.xe-comment {
+    margin-left: 60px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding: 0 0;
+    margin-top: 5px;
+}
+
+.btn {
+    font-size: 15px;
+}
 
 .navbar-nav .nav-link {
     padding-right: 20px;
@@ -67,17 +187,13 @@ display: none;
 .dropdown-menu {
 	background: transparent;
     border: none;
-    margin-top: 0px;
-    margin-bottom: 15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
     padding-left: 15px;
+	font-size: 14px;
 }
 
-.navbar-collapse {
 
-    font-size: 15px;
-    font-weight: bold;
-	padding: 25px;
-}
 
 
 button:focus {
@@ -91,7 +207,6 @@ button:focus {
 .form-control {
     background: transparent;
     border-radius: 12px;
-    border: 1px solid #38444d;
 }
 
 .page-container {
@@ -106,10 +221,6 @@ button:focus {
 button-scroll {
     padding: 7px;
     text-align: center;
-}
-
-.bg-info {
-    background-color: #15202b!important;
 }
 
 
@@ -157,7 +268,6 @@ a#navbarDropdown {
     margin: 0 auto;
 }
 .navbar-dark .navbar-toggler {
-    color: #ebebeb;
     border: none;
     position: relative;
     top: -5px;
@@ -177,9 +287,10 @@ a#navbarDropdown {
 	             padding-bottom: 15px;
 	             width: 270px;
 	             height: 100%;
-	             background: #15202b;	
     box-shadow: 0 2px 6px rgb(0 0 0 / 50%);
-			 
+			 padding-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
 	         }
 
 	         .navbar-collapse.collapsing {
@@ -202,20 +313,23 @@ a#navbarDropdown {
 	         margin: 30px auto 0 auto;
 	      }
 
-	         .logo h1{font-size: 20px; color: #fff}
+	         .logo h1{font-size: 20px;}
 	         @media screen and (max-width:768px) {
 	           .page-container .sidebar-menu.fixed{
 	      display: none;
 	           }
 	           .logo h1{margin-top: 0px; margin-bottom: 0px}
+			   form.form-inline {
+    margin-top: 20px;
+}
 	         }
 	</style>
 </head>
 <body class="page-body">
 <nav class="navbar navbar-expand-lg bg-info navbar-dark fixed-top">
 <div class="container">
-<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"> 
-<i class="fa-bars"  ><img src="https://www.subarist.net/assets/favicon-3zw7clrx.png" class="mobile-logo"></i></button>
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+<i class="fa-bars"><img src="https://www.subarist.net/assets/favicon-3zw7clrx.png" class="mobile-logo"></i></button>
 <div class=" collapse navbar-collapse " id="navbarSupportedContent">
 <a class="navbar-brand" href="#" id="home-link"><img src="https://www.subarist.net/assets/logo-yzli5vki.png" class="Header-logo"></a>
 <ul class="navbar-nav mr-auto">
@@ -224,6 +338,9 @@ a#navbarDropdown {
 </li>
 <li class="nav-item">
 <a class="nav-link mobile-blog" href="https://www.subarist.net/blog"><i aria-hidden="true" class="icon  fa-sharp fa-solid fa-blog mobile-icon"></i><span class="LinksButton-title">BLOG</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link mobile-add" href="https://github.com/efast1568/links/issues" target="_blank"><i aria-hidden="true" class="icon  fa-solid fa-user-plus mobile-icon"></i><span class="tooltip-blue">申請連結</span></a>
 </li>
 <li class="nav-item dropdown active">
 <i class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button"><i aria-hidden="true" class="icon  fa-solid fa-link mobile-icon"></i><span class="LinksButton-title">LINK &nbsp;</span></i>
@@ -380,7 +497,7 @@ a#navbarDropdown {
 </div>
 <div class="col-sm-5">
 <div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.mazda.com.tw/" data-placement="bottom" data-toggle="tooltip" title="">
-<div class="xe-comment-entry">
+<div class="xe-comment-entry"> 
 <a class="xe-user-img" href="https://www.mazda.com.tw/" target="_blank"><img alt="MAZDA Motor Taiwan" class="lozad img-circle" data-src="https://www.mazda.com.tw/globalassets/logos/mazda_logo_global_nav_new.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
 <div class="xe-comment">
 <a class="xe-user-name overflowClip_1" href="https://www.mazda.com.tw/" target="_blank"><strong>MAZDA Motor Taiwan</strong></a>
@@ -691,9 +808,8 @@ a#navbarDropdown {
 
 
 	      .footer .title {
-    text-align: left;
     font-size: 15px;
-	
+	font-weight: bold;
     line-height: 1.5;
 }
 
@@ -750,16 +866,10 @@ div {
 .footer {
     width: 95%;
     margin: 0 auto;
-	margin-top: 70px;
+	margin-top: 60px;
 }
 
-.footer-table {
-    border-block-start: 1px solid #38444d;
-}
 
-.footer-mobile {
-    border-block-start: 1px solid #38444d;
-}
 
 @media (min-width:768px) {
 
@@ -802,6 +912,7 @@ div {
     width: 97%;
     margin: auto;
  }
+ 
 
 }
 	</style>
