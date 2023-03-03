@@ -1,431 +1,409 @@
+
 <!DOCTYPE html>
 <html lang="zh-Hant">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>網址導航 - SUBARIST.NET</title>
-    <link rel="canonical" href="https://www.subarist.net/links/">
-    <meta name="keywords" content="資源連結, Subarist, Subaru, TIFC, TIC, LTC, 速霸陸">
-    <meta name="description" content="網路資源導航頁面。">
-    <link rel="shortcut icon" href="https://www.subarist.net/assets/favicon-3zw7clrx.png">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>網址導航 - SUBARIST.NET</title>
+<link href="https://www.subarist.net/links/" rel="canonical">
+<meta content="資源連結, Subarist, Subaru, TIFC, TIC, LTC, 速霸陸" name="keywords">
+<meta content="網路資源導航頁面。" name="description">
+<link href="https://www.subarist.net/assets/favicon-3zw7clrx.png" rel="shortcut icon">
 <link href="https://www.subarist.net/assets/nav-links.css" rel="stylesheet">
-<link href="https://www.subarist.net/assets/subarist-link.css" rel="stylesheet">
+<link href="https://www.subarist.net/assets/subarist-link.css" rel="stylesheet" id="subaristLinkStylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <!-- FB Open Graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://www.subarist.net/links/">
-    <meta property="og:title" content="網址導航 - SUBARIST.NET">
-    <meta property="og:description" content="網路資源導航頁面。">
-    <meta property="og:image" content="https://www.subarist.net/assets/pwa-icon-196x196-1t3eapur.png">
-    <meta property="og:site_name" content="SUBARIST.NET">
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="網址導航 - SUBARIST.NET">
-    <meta name="twitter:description" content="網路資源導航頁面。">
-    <meta name="twitter:image" content="https://www.subarist.net/assets/pwa-icon-196x196-1t3eapur.png">
+<meta content="article" property="og:type">
+<meta content="https://www.subarist.net/links/" property="og:url">
+<meta content="網址導航 - SUBARIST.NET" property="og:title">
+<meta content="網路資源導航頁面。" property="og:description">
+<meta content="https://www.subarist.net/assets/pwa-icon-196x196-1t3eapur.png" property="og:image">
+<meta content="SUBARIST.NET" property="og:site_name">
+<meta content="summary_large_image" name="twitter:card">
+<meta content="網址導航 - SUBARIST.NET" name="twitter:title">
+<meta content="網路資源導航頁面。" name="twitter:description">
+<meta content="https://www.subarist.net/assets/pwa-icon-196x196-1t3eapur.png" name="twitter:image">
 <style>
 
 @media screen and (max-width:768px) {
-.page-container .sidebar-menu.fixed{
-  display: none;
-   }
-.logo h1{margin-top: 0px; margin-bottom: 0px}
-   form.form-inline {
-    margin-top: 20px;
+	.page-container .sidebar-menu.fixed {
+		display: none;
+	}
+	.logo h1 {
+		margin-top: 0px;
+		margin-bottom: 0px
+	}
+	form.form-inline {
+		margin-top: 20px;
+	}
 }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+		width: 992px;
+	}
 }
-
-@media (min-width: 992px) and (max-width: 1199.98px){
-.container {
-    width: 992px;
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
 }
-
-}
-@media (min-width: 1200px){
-.container {
-    max-width: 1200px;
-}}
 /*手機版面*/
-@media (max-width: 992px){
-
-.page-container .sidebar-menu .sidebar-menu-inner .main-menu {
-    display: none;
-    margin-bottom: 0;
-}
-
-.page-container .main-content, .page-container .sidebar-menu {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-div#gsc-iw-id2 {
-    height: 40px!important;
-    padding-top: 1px!important;
-}
+@media (max-width: 992px) {
+	.page-container .sidebar-menu .sidebar-menu-inner .main-menu {
+		display: none;
+		margin-bottom: 0;
+	}
+	.page-container .main-content, .page-container .sidebar-menu {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	div#gsc-iw-id2 {
+		height: 40px!important;
+		padding-top: 1px!important;
+	}
 	a.nav-link.mobile-back {
-    display: block!important;
-}
-
-.gsc-tabsArea {
-    margin-top: 20px!important;
-}
-
-
-.search-icon ,div#___gcse_0 ,div#___gcse_1 {
-   display: none;
-}
-
-.gsc-control-cse {
-    margin-bottom: -30px!important;
-    margin-top: -10px!important;
-    margin-left: -30px!important;
-    margin-right: -30px!important;
-}
-table.gsc-search-box {
-    width: 95%!important;
-    margin: 0px auto;
-}
-
-.gsc-results .gsc-cursor-box {
-     font-size: 14px!important;
-}
-
-.gsc-results .gsc-cursor-box {
-    border: 1px solid #38444d!important;
-    font-size: 15px;
-        border-radius: 12px!important;
-}
-.gsc-control-wrapper-cse {
-    width: 95%!important;
-    margin: 0px auto;
-}
-.gsc-input-box {
-    padding-top: 4px!important;
-    padding-bottom: 3px!important;
-}
-
-.gsc-search-button-v2 {
-    padding: 12px 11px!important;
-    margin-left: -1px!important;
-}
-		      
-		      i.fa.fa-search {
-    top: -27px!important;
-    left: -14px!important;
-
-}
-		      
+		display: block!important;
+	}
+	.gsc-tabsArea {
+		margin-top: 20px!important;
+	}
+	.search-icon, div#___gcse_0, div#___gcse_1 {
+		display: none;
+	}
+	.gsc-control-cse {
+		margin-bottom: -30px!important;
+		margin-top: -10px!important;
+		margin-left: -30px!important;
+		margin-right: -30px!important;
+	}
+	table.gsc-search-box {
+		width: 95%!important;
+		margin: 0px auto;
+	}
+	.gsc-results .gsc-cursor-box {
+		font-size: 14px!important;
+	}
+	.gsc-results .gsc-cursor-box {
+		border: 1px solid #38444d!important;
+		font-size: 15px;
+		border-radius: 12px!important;
+	}
+	.gsc-control-wrapper-cse {
+		width: 95%!important;
+		margin: 0px auto;
+	}
+	.gsc-input-box {
+		padding-top: 4px!important;
+		padding-bottom: 3px!important;
+	}
+	.gsc-search-button-v2 {
+		padding: 12px 11px!important;
+		margin-left: -1px!important;
+	}
+	i.fa.fa-search {
+		top: -27px!important;
+		left: -14px!important;
+	}
 	.col-sm-5 {
 		padding-left: 10px;
 		padding-right: 10px;
-	}		  
-		  .overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(13,19,26,0.9);
-    z-index: 998;
-    opacity: 0;
-    transition: opacity .2s;
-}
- 
-.overlay.active {
-    display: block;
-    opacity: 0.9;
-}
-
-		  
-
-img.Header-logo {
-    margin-top: -39px;
-    margin-left: 44px;
-}
-
-
-a#navbarDropdown {
-    margin-bottom: 15px;
-}
-		  
-		  nav.navbar {
-    padding: 0;
-    height: 46px;
-    margin: 0 auto;
-}
-.navbar-dark .navbar-toggler {
-    border: none;
-    position: relative;
-    top: -5px;
-    left: 2px;
-}
-
-.overflowClip_2 {
-    -webkit-line-clamp: 2;
-}
-
+	}
+	.overlay {
+		display: none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(13, 19, 26, 0.9);
+		z-index: 998;
+		opacity: 0;
+		transition: opacity .2s;
+	}
+	.overlay.active {
+		display: block;
+		opacity: 0.9;
+	}
+	img.Header-logo {
+		margin-top: -39px;
+		margin-left: 44px;
+	}
+	a#navbarDropdown {
+		margin-bottom: 15px;
+	}
+	nav.navbar {
+		padding: 0;
+		height: 46px;
+		margin: 0 auto;
+	}
+	.navbar-dark .navbar-toggler {
+		border: none;
+		position: relative;
+		top: -5px;
+		left: 2px;
+	}
+	.overflowClip_2 {
+		-webkit-line-clamp: 2;
+	}
 	.box2 {
 		height: 125px!important;
-		margin-top: 15px;
 	}
-	
-		.row {
+	.row {
 		margin-left: -30px;
 		margin-right: -20px;
 	}
+	li.nav-item {
+		margin-top: 3px;
+	}
+	.dropdown-menu li {
+		margin-top: 5px;
+		margin-left: 15px;
+	}
+	.mr-auto, .mx-auto {
+		margin-left: -15px;
+	}
+	.navbar-collapse {
+		position: fixed;
+		top: 0px;
+		left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 270px;
+		height: 100%;
+		box-shadow: 0 2px 6px rgb(0 0 0 / 50%);
+		padding-top: 25px;
+		font-size: 15px;
+		z-index: 999;
+	}
+	.navbar-collapse.collapsing {
+		left: -75%;
+		transition: height 0s ease;
+	}
+	.navbar-collapse.show {
+		left: 0;
+		transition: left 150ms ease-in-out;
+	}
+	.navbar-toggler.collapsed~.navbar-collapse {
+		transition: transform .2s;
+		transform: translateX(calc(-6px - 270px));
+	}
+	.footer-table {
+		display: none;
+	}
+	.flex-2 {
+		flex-basis: 35%;
+		flex-grow: 1;
+		flex-shrink: 1;
+		font-size: 14px;
+	}
+	.footer-mobile {
+		width: 97%;
+		margin: auto;
+	}
+	img.Header-logo {
+	height: 29px;
+	margin-top: -38px;
+	margin-left: 45px;
+    }
+    .bloq {
+	flex-direction: column;
+	    --bs-gutter-x: -1rem!important;
 
-li.nav-item {
-    margin-top: 3px;
 }
-
-.dropdown-menu li {
-    margin-top: 5px;
-    margin-left: 15px;
 }
-
-.mr-auto, .mx-auto {
-    margin-left: -15px;
-}
-
-	         .navbar-collapse {
-	             position: fixed;
-	             top: 0px;
-	             left: 0;
-	             padding-left: 20px;
-	             padding-right: 20px;
-	             width: 270px;
-	             height: 100%;
-    box-shadow: 0 2px 6px rgb(0 0 0 / 50%);
-			 padding-top: 25px;
-    font-size: 15px;
-	z-index: 999;
-	         }
-
-	         .navbar-collapse.collapsing {
-	             left: -75%;
-	             transition: height 0s ease;
-	         }
-
-	         .navbar-collapse.show {
-	             left: 0;
-	             transition: left 150ms ease-in-out;			 
-	         }
-
-	         .navbar-toggler.collapsed ~ .navbar-collapse {
-	             transition: transform .2s;
-				 transform: translateX(calc(-6px - 270px));
-	         }
-			 
-.footer-table {
-    display: none;
-}
- 
-.flex-2 {
-  flex-basis: 35%;
-  flex-grow: 1;
-  flex-shrink: 1;
-   font-size:14px;
-
-}
-
-.footer-mobile {
-    width: 97%;
-    margin: auto;
- }
- 
-}
-
-
-
 /*電腦版面*/
-@media (min-width: 992px){
-nav.navbar {
-padding: 8px;
-    height: 52px;
-    margin: 0 auto;
+@media (min-width: 992px) {
+	nav.navbar {
+		padding: 8px;
+		height: 52px;
+		margin: 0 auto;
+	}
+	.gsc-input-box {
+		width: 225px;
+		position: relative;
+		right: 125px;
+		top: 3px;
+		transition: border-color .15s, right .4s, width .4s!important;
+	}
+	.gsc-input-box:focus-within {
+	    background: #15202b ;
+		border-color: #1d9bf0 ;
+		width: 400px!important;
+		right: 300px!important;
+		transition: border-color .15s, width .4s, right .4s!important;
+	}
+	.col-sm-5 {
+		flex: 0 0 49%;
+		max-width: 49%;
+		font-weight: bold;
+	}
+	.gsc-tabsArea {
+		margin-top: 30px!important;
+	}
+	.gsc-input-box {
+		padding-top: 1px!important;
+		padding-bottom: 0px!important;
+	}
+	.gsc-search-button-v2 {
+		font-size: 0px!important;
+		padding: 6px 20px!important;
+		display: none;
+	}
+	.gsc-results .gsc-cursor-box {
+		border: none!important;
+		font-size: 16px;
+	}
+	.dropdown {
+		display: none;
+	}
+	.mobile-add {
+		display: none;
+	}
+	.mobile-title {
+		display: none;
+	}
+	li.nav-item {
+		font-weight: 600;
+		font-size: 15px;
+	}
+	div#___gcse_2 {
+		display: none;
+	}
+	.main-content {
+		padding: 0px 60px 0px 0px!important;
+	}
+	img.Header-logo {
+    height: 29px;
+    margin-top: -10px;
+    margin-left: 2px;
+    }
+    .overflowClip_2 {
+	-webkit-line-clamp: 3;
+	margin-bottom: 2px!important;
 }
-.gsc-input-box {
-  width: 225px;
-  position: relative;
-  right: 150px;
-  top: 3px;
-  transition: border-color .15s, right .4s, width .4s!important;
 }
-.gsc-input-box:focus-within {
-      border-color: #1d9bf0!important;
-  width: 400px!important;
-  right: 325px!important;
-  transition: border-color .15s,width .4s, right .4s!important;
-}
-.col-sm-5 {
-    flex: 0 0 49%;
-    max-width: 49%;
-    font-weight: bold;
-}
-.gsc-tabsArea {
-    margin-top: 30px!important;
-}
-.gsc-input-box {
-    padding-top: 1px!important;
-    padding-bottom: 0px!important;
-}
-.gsc-search-button-v2 {
-    font-size: 0px!important;
-    padding: 6px 20px!important;
-  display:none;
-}
-.gsc-results .gsc-cursor-box {
-    border: none!important;
-    font-size: 16px;
-}    
 
-.dropdown {
-display: none;
-}
-.mobile-add {
-    display: none;
-}
-.mobile-title {
-display: none;
-}
-li.nav-item {
-    font-weight: 600;
-font-size: 15px;
-}
-div#___gcse_2 {
-   display: none;
-}
-.main-content {
-padding: 0px 60px 0px 0px!important;
-}
-}
 .gsc-above-wrapper-area {
-    border-bottom: 1px solid #38444d!important;
+	border-bottom: 1px solid #38444d!important;
 }
 .gsc-cursor-chevron {
-    margin: -3px 16px -1px!important;
+	margin: -3px 16px -1px!important;
 }
 .gsc-results .gsc-cursor {
-    color: #ebebeb!important;
-        fill: #ebebeb!important;
+	color: #ebebeb!important;
+	fill: #ebebeb!important;
 }
 .gsc-tabsArea {
-    border: none!important;
+	border: none!important;
 }
 .gs-spelling {
-    color: aquamarine!important;
+	color: aquamarine!important;
 }
 .gcsc-more-maybe-branding-box {
-    border: none!important;
-    padding: 5px!important;
-    font-size: 14px!important;
+	border: none!important;
+	padding: 5px!important;
+	font-size: 14px!important;
 }
 .gsc-webResult .gsc-result {
-    border-bottom: 1px solid #38444d!important;
-    margin-bottom: 10px!important;
-    padding: 10px 10px!important;
+	border-bottom: 1px solid #38444d!important;
+	margin-bottom: 10px!important;
+	padding: 10px 10px!important;
 }
 .gsc-tabHeader {
-    font-size: 14px!important;
+	font-size: 14px!important;
 }
 .search-icon {
-position: absolute;
-    right: 340px;
-    top: 15px;
+	position: absolute;
+	right: 340px;
+	top: 15px;
 }
 i.icon.fa-solid.fa-link.mobile-icon {
-    margin-left: 18px;
-    margin-right: 9px;
-    margin-top: 7px;
+	margin-left: 18px;
+	margin-right: 9px;
+	margin-top: 7px;
 }
 i#navbarDropdown {
-    font-style: normal;
+	font-style: normal;
 }
 .mobile-title {
-    text-align: center;
-    width: 100%;
-    font-size: 16px;
-    margin-top: -55px;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	margin-top: -55px;
 }
-	.sidebar-menu .logo-env .logo {
-		margin-bottom: 5px;
-		margin-left: 13px;
-		margin-top: -24px;
-	}
-	.sidebar-menu .main-menu a {
-		font-size: 15px;
-		padding: 12px 40px 12px 5px;
-        border-bottom: none;
-	}
-	.sidebar-menu .main-menu a>i {
-    width: 15px;
-    display: inline-flex;
-    justify-content: center;
-    }
-	.sidebar-menu .main-menu {
-		padding-left: 60px;
-		margin-top: 30px;
-	}
-	.box2 {
-		height: 135px;
-		margin-top: 15px;
-	}
-	.scroll-top {
-    right: 18px;
-    position: fixed;
-    bottom: 105px;
-    z-index: 99;
-    outline: none;
-    background-color: rgba(0,0,0,0.5) !important;
-    border: 1px solid transparent;
-    cursor: pointer;
-    border-radius: 12px;
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    opacity: 0.4;
+.sidebar-menu .logo-env .logo {
+	margin-bottom: 5px;
+	margin-left: 13px;
+	margin-top: -24px;
+}
+.sidebar-menu .main-menu a {
+	font-size: 15px;
+	padding: 12px 40px 12px 5px;
+	border-bottom: none;
+}
+.sidebar-menu .main-menu a>i {
+	width: 15px;
+	display: inline-flex;
+	justify-content: center;
+}
+.sidebar-menu .main-menu {
+	padding-left: 60px;
+	margin-top: 30px;
+}
+.box2 {
+	height: 135px;
+	margin-top: 15px;
+}
+.scroll-top {
+	right: 18px;
+	position: fixed;
+	bottom: 105px;
+	z-index: 99;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	border: 1px solid transparent;
+	cursor: pointer;
+	border-radius: 12px;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	opacity: 0.4;
 	font-size: 16px;
 	color: #ddd;
-    display:none;
-}	
+	display: none;
+}
 .scroll-bottom {
-    right: 18px;
-    position: fixed;
-    bottom: 60px;
-    z-index: 99;
-    outline: none;
-    background-color: rgba(0,0,0,0.5) !important;
-    border: 1px solid transparent;
-    cursor: pointer;
-    border-radius: 12px;
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    opacity: 0.4;
+	right: 18px;
+	position: fixed;
+	bottom: 60px;
+	z-index: 99;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	border: 1px solid transparent;
+	cursor: pointer;
+	border-radius: 12px;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	opacity: 0.4;
 	font-size: 16px;
 	color: #ddd;
-	display:none;
+	display: none;
 }
 .sidebar-menu.fixed .sidebar-menu-inner {
 	left: auto;
 	position: sticky;
-    margin-left: 3px;
+	margin-left: 3px;
 }
 body {
-	font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Ubuntu,Cantarell,Oxygen,Roboto,Helvetica,Arial,sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, Cantarell, Oxygen, Roboto, Helvetica, Arial, sans-serif;
 	line-height: 1.55;
-		         margin: 30px auto 0 auto;
+	margin: 30px auto 0 auto;
+	font-size: 14px;
 }
 .overflowClip_1 {
 	margin-bottom: 2px;
-}
-.overflowClip_2 {
-	-webkit-line-clamp: 3;
-	margin-bottom: 2px!important;
 }
 h4, .h4, h5, .h5, h6, .h6 {
 	margin-top: 10px;
@@ -435,225 +413,193 @@ h4, .h4, h5, .h5, h6, .h6 {
 	display: none!important;
 }
 .xe-comment {
-    margin-left: 60px;
+	margin-left: 60px;
 }
 .img-circle {
-    border-radius: 50%;
-    height: 45px;
-    width: 45px;
-    padding: 0 0;
-    margin-top: 5px;
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	padding: 0 0;
+	margin-top: 5px;
 }
 .btn {
-    font-size: 15px;
+	font-size: 15px;
 }
 .mobile-icon {
-    width: 15px;
-    display: inline-flex;
-    justify-content: center;
-    margin-right: 7px;
+	width: 15px;
+	display: inline-flex;
+	justify-content: center;
+	margin-right: 7px;
 }
 .dropdown-menu>li>a>i {
-    margin-right: 5px;
-    display: inline-flex;
-    justify-content: center;
-    width: 15px;
-    margin: 8px;
+	margin-right: 5px;
+	display: inline-flex;
+	justify-content: center;
+	width: 15px;
+	margin: 8px;
 }
 .dropdown-menu {
 	background: transparent;
-    border: none;
-    margin-top: -5px;
-    margin-bottom: -5px;
-    padding-left: 15px;
+	border: none;
+	margin-top: -5px;
+	margin-bottom: -5px;
+	padding-left: 15px;
 	font-size: 14px;
 }
 button:focus {
-    outline: none;
+	outline: none;
 }
 .container {
-   padding: 8px;
+	padding: 8px;
 }
-
 .form-control {
-    background: transparent;
-    border-radius: 12px;
+	background: transparent;
+	border-radius: 12px;
 }
 .page-container {
-    max-width: 1300px;
-    margin: 0 auto;
+	max-width: 1300px;
+	margin: 0 auto;
 }
-
 .sidebar-menu.fixed .sidebar-menu-inner {
-    position: sticky;
+	position: sticky;
 }
 button-scroll {
-    padding: 7px;
-    text-align: center;
+	padding: 7px;
+	text-align: center;
 }
-img.Header-logo {
-    height: 29px;
-    margin-top: -10px;
-    margin-left: 2px;
-}
-
 img.mobile-logo {
-height: 35px;
-    margin-top: 1px;
-    margin-left: 8px;
+	height: 35px;
+	margin-top: 1px;
+	margin-left: 8px;
 }
 .sidebar-menu .main-menu {
-    padding-left: 60px;
-    margin-top: 80px;
+	padding-left: 60px;
+	margin-top: 80px;
 }
-.logo h1{font-size: 20px;}
+.logo h1 {
+	font-size: 20px;
+}
 div#___gcse_0 {
-    width: 230px;
+	width: 230px;
 }
-
 .gsc-input {
-    font-size: 15px!important;
+	font-size: 15px!important;
 }
-  
-
-  input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
-    border-color: #38444d;
-    background: transparent!important;
-    color: #ebebeb;
-    padding: 25px;
-} 
-
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+	border-color: #38444d;
+	background: transparent!important;
+	color: #ebebeb;
+	padding: 25px;
+}
 .gsc-adBlock {
-    border-bottom: 1px solid #38444d!important;
+	border-bottom: 1px solid #38444d!important;
 }
-
 .gsc-result-info {
-    color: #9aa0a6!important;
+	color: #9aa0a6!important;
 }
 .gsc-orderby-label {
-    color: #9aa0a6!important;
+	color: #9aa0a6!important;
 }
-
 .gsc-selected-option-container {
-    background-color: #273340!important;
-    color: #ebebeb!important;
+	background-color: #273340!important;
+	color: #ebebeb!important;
 }
-
 div#gsc-iw-id1 {
-    border-radius: 12px;
-    height: 38px;
+	border-radius: 12px;
+	height: 38px;
 }
-
 #gsc-i-id1::placeholder {
-  color: #ebebeb!important;
+	color: #ebebeb!important;
 }
 #gsc-i-id2::placeholder {
-  color: #ebebeb!important;
+	color: #ebebeb!important;
 }
-
 input#gsc-i-id1 {
-    margin-left: -30px!important;
-    padding-left: 30px!important;
-    width: 145%!important;
+	margin-left: -30px!important;
+	padding-left: 30px!important;
+	width: 145%!important;
 }
-
 a.gsst_a:before {
-  content: '\f057';
-  font-family: 'Font Awesome 6 Free';
-    font-weight: 900;
-   color: #ebebeb;
-    position: absolute;
-    left: 5px;
-    top: 1px;
+	content: '\f057';
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 900;
+	color: #ebebeb;
+	position: absolute;
+	left: 5px;
+	top: 1px;
 }
-
-span#gs_cb50,span#gs_cb51 {
-    display: none;
+span#gs_cb50, span#gs_cb51 {
+	display: none;
 }
 a.gsst_a:hover:before {
-  color: #76b4ff;
+	color: #76b4ff;
 }
-	      .footer .title {
-    font-size: 15px;
+.footer .title {
+	font-size: 15px;
 	font-weight: bold;
-    line-height: 1.5;
+	line-height: 1.5;
 }
-
 .footer .social-icon {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
-
 .footer .social-icon a {
-    display: inline-block;
-    font-size: 23px;
-    padding: 0 5px;
+	display: inline-block;
+	font-size: 23px;
+	padding: 0 5px;
 }
-
 .footer .acount-icon a {
-    display: block;
-     font-size: 14px;
-    padding: 1px 5px;
-    text-decoration: none;
+	display: block;
+	font-size: 14px;
+	padding: 1px 5px;
+	text-decoration: none;
 }
-
 .foot-block {
-    text-align: center;
-    padding: 10px 0 20px;
-    font-size: 14px;
+	text-align: center;
+	padding: 10px 0 20px;
+	font-size: 14px;
 }
-
-
 }
 div {
-    display: block;
-}
-.bloq>* {
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 150%;
-    padding-right: calc(var(--bs-gutter-x)/ 3);
-    padding-left: calc(var(--bs-gutter-x)/ 3);
-    margin-top: var(--bs-gutter-y);
+	display: block;
 }
 .bloq {
-
-    --bs-gutter-x: -2.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 18px;
-    margin-right: calc(var(--bs-gutter-x)/ -3);
-    margin-left: calc(var(--bs-gutter-x)/ -3);
+	--bs-gutter-x: -2.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 18px;
+	margin-right: calc(var(--bs-gutter-x)/ -2);
+	margin-left: calc(var(--bs-gutter-x)/ -2);
 }
-
 .footer {
-    width: 93%;
-    margin: 0 auto;
+	width: 93%;
+	margin: 0 auto;
 	margin-top: 60px;
-	max-width: 1200px;
+	max-width: 1240px;
 }
-
 /*不明只能這樣置放*/
+
 @media (min-width:992px) {
-
-.footer-mobile {
-    display: none;
-}
-    .bloq-3 {
-        flex: 0 0 auto;
-        width: 20%;
+	.footer-mobile {
+		display: none;
+	}
+	.down-footer {
+    margin: 0px auto;
     }
-.flex-2 {
-  flex-basis: 35%;
- flex-grow: 1;
-  flex-shrink: 1;
-  margin-right:30px;
-  font-size:14px;
+	.bloq-3 {
+		flex: 0 0 auto;
+		width: 20%;
+	}
+	.flex-2 {
+		flex-basis: 35%;
+		flex-grow: 1;
+		flex-shrink: 1;
+		margin-right: 30px;
+		font-size: 14px;
+	}
 }
-}
-
-	</style>
+</style>
 </head>
 <body class="page-body">
 <nav class="navbar navbar-expand-lg bg-info navbar-dark fixed-top">
@@ -701,522 +647,371 @@ div {
 <form>
 <div class="gcse-searchbox"></div>
 </form>
+<button id="switchStyleButton">切換到淺色主題</button>
 </nav>
-    <!-- skin-white -->
-    <div class="page-container">
-        <div class="sidebar-menu toggle-others fixed">
-            <div class="sidebar-menu-inner">
-                <ul id="main-menu" class="main-menu">
-                    <li>
-                        <a href="#最新上架" class="smooth">
-                            <i class="fa-folder-plus"></i>
-                            <span class="title">最新上架</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#官方網站" class="smooth">
-                            <i class="fa-globe"></i>
-                            <span class="title">官方網站</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#網路資源" class="smooth">
-                            <i class="fa-discord"></i>
-                            <span class="title">網路資源</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#社群媒體" class="smooth">
-                            <i class="fa-icons"></i>
-                            <span class="title">社群媒體</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#部落格" class="smooth">
-                            <i class="fa-blogger"></i>
-                            <span class="title">部落格</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#Flarum" class="smooth">
-                            <i class="fa-code"></i>
-                            <span class="title">Flarum</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/efast1568/links/issues" target="_blank">
-                            <i class="fa-user-plus"></i>
-                            <span class="tooltip-blue">申請連結</span>
-                            <span class="label label-Primary pull-right hidden-collapsed"><i class="fa-caret-down"></i></span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="main-content">
-        <div class="gcse-searchresults"></div>
+<div class="page-container">
+<div class="sidebar-menu toggle-others fixed">
+<div class="sidebar-menu-inner">
+<ul class="main-menu" id="main-menu">
+<li>
+<a class="smooth" href="#最新上架"><i class="fa-folder-plus"></i> <span class="title">最新上架</span></a>
+</li>
+<li>
+<a class="smooth" href="#官方網站"><i class="fa-globe"></i> <span class="title">官方網站</span></a>
+</li>
+<li>
+<a class="smooth" href="#網路資源"><i class="fa-discord"></i> <span class="title">網路資源</span></a>
+</li>
+<li>
+<a class="smooth" href="#社群媒體"><i class="fa-icons"></i> <span class="title">社群媒體</span></a>
+</li>
+<li>
+<a class="smooth" href="#部落格"><i class="fa-blogger"></i> <span class="title">部落格</span></a>
+</li>
+<li>
+<a class="smooth" href="#Flarum"><i class="fa-code"></i> <span class="title">Flarum</span></a>
+</li>
+<li>
+<a href="https://github.com/efast1568/links/issues" target="_blank"><i class="fa-user-plus"></i> <span class="tooltip-blue">申請連結</span> <span class="label label-Primary pull-right hidden-collapsed"><i class="fa-caret-down"></i></span></a>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="main-content">
+<div class="gcse-searchresults"></div>
 <div class="gcse-search"></div>
 </br>
-
-            <!-- 最新上架 -->
-            <h4 class="text-gray"><i class="fa-cloudscale" style="margin-right: 7px;" id="最新上架"></i>最新上架</h4>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://a15ff11300g.sakura.ne.jp/">
-                        <div class="xe-comment-entry">
-                            <a href="https://a15ff11300g.sakura.ne.jp/" class="xe-user-img" target="_blank">
-                                <img data-src="https://a15ff11300g.sakura.ne.jp/img/title.01.gif" class="lozad img-circle" width="40" alt="Play With LEGACY RS" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://a15ff11300g.sakura.ne.jp/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Play With LEGACY RS</strong>
-                                </a>
-                                <p class="overflowClip_2">BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。</p>
-                                <p class="overflowClip_3">#各代型錄 #日文</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bbs.legacycentral.org/">
-                        <div class="xe-comment-entry">
-                            <a href="https://bbs.legacycentral.org/" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.subarist.net/assets/world-subaru.png" class="lozad img-circle" width="40" alt="legacycentral bbs - LCBBS" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://bbs.legacycentral.org/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>legacycentral bbs - LCBBS</strong>
-                                </a>
-                                <p class="overflowClip_2">A forum for 89-94 BC-BF(BJ) Legacy Owners and Fans</p>
-                                <p class="overflowClip_3">#老雷論壇 #BC-BF(BJ)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.auto-brochures.com/subaru.html">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.auto-brochures.com/subaru.html" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.subarist.net/assets/world-subaru.png" class="lozad img-circle" width="40" alt="Auto-Brochures Subaru" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.auto-brochures.com/subaru.html" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Auto-Brochures Subaru</strong>
-                                </a>
-                                <p class="overflowClip_2">Subaru car pdf sales brochures, catalogs and electronic media.</p>
-                                <p class="overflowClip_3">#各代型錄 #英文</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 最新上架 -->
-            <!-- 推薦 -->
-            <h4 class="text-gray"><i class="fa-cloudscale" style="margin-right: 7px;" id="推薦"></i>推薦</h4>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.motor-uncle.net/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.motor-uncle.net/" class="xe-user-img" target="_blank">
-                                <img data-src="https://i0.wp.com/www.motor-uncle.net/wp-content/uploads/2022/05/cropped-channels4_profile.jpg?fit&#x3D;32%2C32&amp;ssl&#x3D;1" class="lozad img-circle" width="40" alt="阿北的機器世界" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.motor-uncle.net/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>阿北的機器世界</strong>
-                                </a>
-                                <p class="overflowClip_2">喜歡車子的朋友一起來玩!!(亞倫視覺)</p>
-                                <p class="overflowClip_3">#Motor-uncle #網紅 #阿北</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://a15ff11300g.sakura.ne.jp/">
-                        <div class="xe-comment-entry">
-                            <a href="https://a15ff11300g.sakura.ne.jp/" class="xe-user-img" target="_blank">
-                                <img data-src="https://a15ff11300g.sakura.ne.jp/img/title.01.gif" class="lozad img-circle" width="40" alt="Play With LEGACY RS" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://a15ff11300g.sakura.ne.jp/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Play With LEGACY RS</strong>
-                                </a>
-                                <p class="overflowClip_2">BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。</p>
-                                <p class="overflowClip_3">#各代型錄 #日文</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.auto-brochures.com/subaru.html">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.auto-brochures.com/subaru.html" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.subarist.net/assets/world-subaru.png" class="lozad img-circle" width="40" alt="Auto-Brochures Subaru" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.auto-brochures.com/subaru.html" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Auto-Brochures Subaru</strong>
-                                </a>
-                                <p class="overflowClip_2">Subaru car pdf sales brochures, catalogs and electronic media.</p>
-                                <p class="overflowClip_3">#各代型錄 #英文</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 推薦 -->
-            <!-- 官方網站 -->
-            <h4 class="text-gray"><i class="fa-cloudscale" style="margin-right: 7px;" id="官方網站"></i>官方網站</h4>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.subaru.asia/tw/zh/home/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.subaru.asia/tw/zh/home/" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.subaru.asia/assets/images/logos/subaru.png" class="lozad img-circle" width="40" alt="Subaru Taiwan" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.subaru.asia/tw/zh/home/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Subaru Taiwan</strong>
-                                </a>
-                                <p class="overflowClip_2">SUBARU SAWD 對稱式全時四輪驅動及Boxer Engine水平對臥引擎，提供出色的穩定性、駕駛性能與操控性。</p>
-                                <p class="overflowClip_3">#SUBARU #SAWD #Boxer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.mazda.com.tw/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.mazda.com.tw/" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.mazda.com.tw/globalassets/logos/mazda_logo_global_nav_new.png" class="lozad img-circle" width="40" alt="MAZDA Motor Taiwan" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.mazda.com.tw/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>MAZDA Motor Taiwan</strong>
-                                </a>
-                                <p class="overflowClip_2">揉合職人工藝與日式美學，探索自我獨創之道。以誠心款待的精神，創造人馬一体的駕馭樂趣。</p>
-                                <p class="overflowClip_3">#MAZDA #人馬一體 #轉子 #Roadster</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.sti.jp/en/index.html">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.sti.jp/en/index.html" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.sti.jp/assets/img/logo_sti.png" class="lozad img-circle" width="40" alt="STI" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.sti.jp/en/index.html" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>STI</strong>
-                                </a>
-                                <p class="overflowClip_2">SUBARU TECNICA INTERNATIONAL</p>
-                                <p class="overflowClip_3">#STI #SUBARU</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/geneasy/links/issues">
-                        <div class="xe-comment-entry">
-                            <a href="https://github.com/geneasy/links/issues" class="xe-user-img" target="_blank">
-                                <img data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" class="lozad img-circle" width="40" alt="等你來加➕" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://github.com/geneasy/links/issues" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>等你來加➕</strong>
-                                </a>
-                                <p class="overflowClip_2">快來交換友情鏈接吧</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 官方網站 -->
-            <!-- 網路資源 -->
-            <h4 class="text-gray"><i class="fa-cloudscale" style="margin-right: 7px;" id="網路資源"></i>網路資源</h4>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://forums.nasioc.com/">
-                        <div class="xe-comment-entry">
-                            <a href="https://forums.nasioc.com/" class="xe-user-img" target="_blank">
-                                <img data-src="https://m.media-amazon.com/images/I/71wWqWW+4oL.png" class="lozad img-circle" width="40" alt="NASIOC" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://forums.nasioc.com/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>NASIOC</strong>
-                                </a>
-                                <p class="overflowClip_2">North American Subaru Impreza Owners Club</p>
-                                <p class="overflowClip_3">#NASIOC #重磅論譠</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.subaruoutback.org/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.subaruoutback.org/" class="xe-user-img" target="_blank">
-                                <img data-src="https://images.platforum.cloud/logos/subaruoutback_org.svg" class="lozad img-circle" width="40" alt="Subaru Outback Forums" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.subaruoutback.org/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Subaru Outback Forums</strong>
-                                </a>
-                                <p class="overflowClip_2">Welcome to the Subaru Outback Owners Forum, we have tons of information about your Subaru Outback, from a Subaru Outback Wiki to customer reviews.</p>
-                                <p class="overflowClip_3">#LEGACY #OUTBACK #LIBERTY</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.subaruforester.org/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.subaruforester.org/" class="xe-user-img" target="_blank">
-                                <img data-src="https://images.platforum.cloud/logos/subaruforester_org.svg" class="lozad img-circle" width="40" alt="Subaru Forester Owners Forum" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.subaruforester.org/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Subaru Forester Owners Forum</strong>
-                                </a>
-                                <p class="overflowClip_2">We’re the best Subaru Forester Owners Forum to talk about the best years of the Subaru Forester, modifications and reliability history of the Subaru Forester.</p>
-                                <p class="overflowClip_3">#FORESTER #森林人</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.subaruxvforum.com/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.subaruxvforum.com/" class="xe-user-img" target="_blank">
-                                <img data-src="https://images.platforum.cloud/logos/subaruforester_org.svg" class="lozad img-circle" width="40" alt="Subaru Crosstrek and XV Forums" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.subaruxvforum.com/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Subaru Crosstrek and XV Forums</strong>
-                                </a>
-                                <p class="overflowClip_2">At Subaru XV Forum you&#x27;ll find fellow Subaru XV Enthusiasts to help perfect that Subaru Crosstrek Build, or share all kinds of information about this Subaru from its specs to its design.</p>
-                                <p class="overflowClip_3">#CROSSTREK #XV</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://sl-i.net/FORUM/showthread.php?18087">
-                        <div class="xe-comment-entry">
-                            <a href="https://sl-i.net/FORUM/showthread.php?18087" class="xe-user-img" target="_blank">
-                                <img data-src="https://images.platforum.cloud/logos/subaruxvforum_com.svg" class="lozad img-circle" width="40" alt="Subaru Legacy International" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://sl-i.net/FORUM/showthread.php?18087" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Subaru Legacy International</strong>
-                                </a>
-                                <p class="overflowClip_2">A home for die hard Legacy, Outback, and Baja fans!</p>
-                                <p class="overflowClip_3">#零件手冊 #整備手冊</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://a15ff11300g.sakura.ne.jp/">
-                        <div class="xe-comment-entry">
-                            <a href="https://a15ff11300g.sakura.ne.jp/" class="xe-user-img" target="_blank">
-                                <img data-src="https://a15ff11300g.sakura.ne.jp/img/title.01.gif" class="lozad img-circle" width="40" alt="Play With LEGACY RS" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://a15ff11300g.sakura.ne.jp/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Play With LEGACY RS</strong>
-                                </a>
-                                <p class="overflowClip_2">BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。</p>
-                                <p class="overflowClip_3">#各代型錄 #日文</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bbs.legacycentral.org/">
-                        <div class="xe-comment-entry">
-                            <a href="https://bbs.legacycentral.org/" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.subarist.net/assets/world-subaru.png" class="lozad img-circle" width="40" alt="legacycentral bbs - LCBBS" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://bbs.legacycentral.org/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>legacycentral bbs - LCBBS</strong>
-                                </a>
-                                <p class="overflowClip_2">A forum for 89-94 BC-BF(BJ) Legacy Owners and Fans</p>
-                                <p class="overflowClip_3">#老雷論壇 #BC-BF(BJ)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.auto-brochures.com/subaru.html">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.auto-brochures.com/subaru.html" class="xe-user-img" target="_blank">
-                                <img data-src="https://www.subarist.net/assets/world-subaru.png" class="lozad img-circle" width="40" alt="Auto-Brochures Subaru" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.auto-brochures.com/subaru.html" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Auto-Brochures Subaru</strong>
-                                </a>
-                                <p class="overflowClip_2">Subaru car pdf sales brochures, catalogs and electronic media.</p>
-                                <p class="overflowClip_3">#各代型錄 #英文</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 網路資源 -->
-            <!-- 社群媒體 -->
-            <h4 class="text-gray"><i class="fa-cloudscale" style="margin-right: 7px;" id="社群媒體"></i>社群媒體</h4>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.facebook.com/groups/SubaruImprezaGC8OwnersClub">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.facebook.com/groups/SubaruImprezaGC8OwnersClub" class="xe-user-img" target="_blank">
-                                <img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" class="lozad img-circle" width="40" alt="Subaru Impreza GC8 Owners Club" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.facebook.com/groups/SubaruImprezaGC8OwnersClub" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Subaru Impreza GC8 Owners Club</strong>
-                                </a>
-                                <p class="overflowClip_2">公開社團 6.6 萬位成員</p>
-                                <p class="overflowClip_3">#GC8 #GF8 #IMPREZA</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.facebook.com/groups/SUYACLUB/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.facebook.com/groups/SUYACLUB/" class="xe-user-img" target="_blank">
-                                <img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" class="lozad img-circle" width="40" alt="SUBARU SUYA CLUB (快樂舒壓.TW)" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.facebook.com/groups/SUYACLUB/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>SUBARU SUYA CLUB (快樂舒壓.TW)</strong>
-                                </a>
-                                <p class="overflowClip_2">私密社團 3.0 萬位成員</p>
-                                <p class="overflowClip_3">#SUYA #舒壓</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/geneasy/links/issues">
-                        <div class="xe-comment-entry">
-                            <a href="https://github.com/geneasy/links/issues" class="xe-user-img" target="_blank">
-                                <img data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" class="lozad img-circle" width="40" alt="等你來加➕" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://github.com/geneasy/links/issues" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>等你來加➕</strong>
-                                </a>
-                                <p class="overflowClip_2">快來交換友情鏈接吧</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/geneasy/links/issues">
-                        <div class="xe-comment-entry">
-                            <a href="https://github.com/geneasy/links/issues" class="xe-user-img" target="_blank">
-                                <img data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" class="lozad img-circle" width="40" alt="等你來加➕" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://github.com/geneasy/links/issues" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>等你來加➕</strong>
-                                </a>
-                                <p class="overflowClip_2">快來交換友情鏈接吧</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 社群媒體 -->
-            <!-- 部落格 -->
-            <h4 class="text-gray"><i class="fa-cloudscale" style="margin-right: 7px;" id="部落格"></i>部落格</h4>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.motor-uncle.net/">
-                        <div class="xe-comment-entry">
-                            <a href="https://www.motor-uncle.net/" class="xe-user-img" target="_blank">
-                                <img data-src="https://i0.wp.com/www.motor-uncle.net/wp-content/uploads/2022/05/cropped-channels4_profile.jpg?fit&#x3D;32%2C32&amp;ssl&#x3D;1" class="lozad img-circle" width="40" alt="阿北的機器世界" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://www.motor-uncle.net/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>阿北的機器世界</strong>
-                                </a>
-                                <p class="overflowClip_2">喜歡車子的朋友一起來玩!!(亞倫視覺)</p>
-                                <p class="overflowClip_3">#Motor-uncle #網紅 #阿北</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/geneasy/links/issues">
-                        <div class="xe-comment-entry">
-                            <a href="https://github.com/geneasy/links/issues" class="xe-user-img" target="_blank">
-                                <img data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" class="lozad img-circle" width="40" alt="等你來加➕" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://github.com/geneasy/links/issues" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>等你來加➕</strong>
-                                </a>
-                                <p class="overflowClip_2">快來交換友情鏈接吧</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END 部落格 -->
-            <!-- Flarum -->
-            <h4 class="text-gray"><i class="fa-cloudscale" style="margin-right: 7px;" id="Flarum"></i>Flarum</h4>
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://flarum.org/">
-                        <div class="xe-comment-entry">
-                            <a href="https://flarum.org/" class="xe-user-img" target="_blank">
-                                <img data-src="https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcTm64RA1Aw0MG3lF4olnKzDWBbGJ5t_GMj3mA&amp;usqp&#x3D;CAU" class="lozad img-circle" width="40" alt="FLARUM - Forums made simple." src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://flarum.org/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>FLARUM - Forums made simple.</strong>
-                                </a>
-                                <p class="overflowClip_2">Flarum is the next-generation forum software that makes online discussion fun. It&#x27;s simple, fast, and free.。</p>
-                                <p class="overflowClip_3">#Flarum #Forum #PHP</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://discuss-cn.pipecraft.net/">
-                        <div class="xe-comment-entry">
-                            <a href="https://discuss-cn.pipecraft.net/" class="xe-user-img" target="_blank">
-                                <img data-src="https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png" class="lozad img-circle" width="40" alt="Pipecraft 社區" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="https://discuss-cn.pipecraft.net/" class="xe-user-name overflowClip_1" target="_blank">
-                                    <strong>Pipecraft 社區</strong>
-                                </a>
-                                <p class="overflowClip_2">這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。</p>
-                                <p class="overflowClip_3">#RSS #Atom #聚合新聞 #內容訂閱</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <!--END Flarum -->
-                </div>
+<h4 class="text-gray"><i class="fa-cloudscale" id="最新上架" style="margin-right: 7px;"></i>最新上架</h4>
+<div class="row">
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://a15ff11300g.sakura.ne.jp/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://a15ff11300g.sakura.ne.jp/" target="_blank"><img alt="Play With LEGACY RS" class="lozad img-circle" data-src="https://a15ff11300g.sakura.ne.jp/img/title.01.gif" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://a15ff11300g.sakura.ne.jp/" target="_blank"><strong>Play With LEGACY RS</strong></a>
+<p class="overflowClip_2">BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。</p>
+<p class="overflowClip_3">#各代型錄 #日文</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://bbs.legacycentral.org/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://bbs.legacycentral.org/" target="_blank"><img alt="legacycentral bbs - LCBBS" class="lozad img-circle" data-src="https://www.subarist.net/assets/world-subaru.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://bbs.legacycentral.org/" target="_blank"><strong>legacycentral bbs - LCBBS</strong></a>
+<p class="overflowClip_2">A forum for 89-94 BC-BF(BJ) Legacy Owners and Fans</p>
+<p class="overflowClip_3">#老雷論壇 #BC-BF(BJ)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.auto-brochures.com/subaru.html" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.auto-brochures.com/subaru.html" target="_blank"><img alt="Auto-Brochures Subaru" class="lozad img-circle" data-src="https://www.subarist.net/assets/world-subaru.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.auto-brochures.com/subaru.html" target="_blank"><strong>Auto-Brochures Subaru</strong></a>
+<p class="overflowClip_2">Subaru car pdf sales brochures, catalogs and electronic media.</p>
+<p class="overflowClip_3">#各代型錄 #英文</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<h4 class="text-gray"><i class="fa-cloudscale" id="推薦" style="margin-right: 7px;"></i>推薦</h4>
+<div class="row">
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.motor-uncle.net/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.motor-uncle.net/" target="_blank"><img alt="阿北的機器世界" class="lozad img-circle" data-src="https://i0.wp.com/www.motor-uncle.net/wp-content/uploads/2022/05/cropped-channels4_profile.jpg?fit&#x3D;32%2C32&amp;ssl&#x3D;1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.motor-uncle.net/" target="_blank"><strong>阿北的機器世界</strong></a>
+<p class="overflowClip_2">喜歡車子的朋友一起來玩!!(亞倫視覺)</p>
+<p class="overflowClip_3">#Motor-uncle #網紅 #阿北</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://a15ff11300g.sakura.ne.jp/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://a15ff11300g.sakura.ne.jp/" target="_blank"><img alt="Play With LEGACY RS" class="lozad img-circle" data-src="https://a15ff11300g.sakura.ne.jp/img/title.01.gif" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://a15ff11300g.sakura.ne.jp/" target="_blank"><strong>Play With LEGACY RS</strong></a>
+<p class="overflowClip_2">BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。</p>
+<p class="overflowClip_3">#各代型錄 #日文</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.auto-brochures.com/subaru.html" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.auto-brochures.com/subaru.html" target="_blank"><img alt="Auto-Brochures Subaru" class="lozad img-circle" data-src="https://www.subarist.net/assets/world-subaru.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.auto-brochures.com/subaru.html" target="_blank"><strong>Auto-Brochures Subaru</strong></a>
+<p class="overflowClip_2">Subaru car pdf sales brochures, catalogs and electronic media.</p>
+<p class="overflowClip_3">#各代型錄 #英文</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<h4 class="text-gray"><i class="fa-cloudscale" id="官方網站" style="margin-right: 7px;"></i>官方網站</h4>
+<div class="row">
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.subaru.asia/tw/zh/home/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.subaru.asia/tw/zh/home/" target="_blank"><img alt="Subaru Taiwan" class="lozad img-circle" data-src="https://www.subaru.asia/assets/images/logos/subaru.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.subaru.asia/tw/zh/home/" target="_blank"><strong>Subaru Taiwan</strong></a>
+<p class="overflowClip_2">SUBARU SAWD 對稱式全時四輪驅動及Boxer Engine水平對臥引擎，提供出色的穩定性、駕駛性能與操控性。</p>
+<p class="overflowClip_3">#SUBARU #SAWD #Boxer</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.mazda.com.tw/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.mazda.com.tw/" target="_blank"><img alt="MAZDA Motor Taiwan" class="lozad img-circle" data-src="https://www.mazda.com.tw/globalassets/logos/mazda_logo_global_nav_new.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.mazda.com.tw/" target="_blank"><strong>MAZDA Motor Taiwan</strong></a>
+<p class="overflowClip_2">揉合職人工藝與日式美學，探索自我獨創之道。以誠心款待的精神，創造人馬一体的駕馭樂趣。</p>
+<p class="overflowClip_3">#MAZDA #人馬一體 #轉子 #Roadster</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.sti.jp/en/index.html" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.sti.jp/en/index.html" target="_blank"><img alt="STI" class="lozad img-circle" data-src="https://www.sti.jp/assets/img/logo_sti.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.sti.jp/en/index.html" target="_blank"><strong>STI</strong></a>
+<p class="overflowClip_2">SUBARU TECNICA INTERNATIONAL</p>
+<p class="overflowClip_3">#STI #SUBARU</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://github.com/geneasy/links/issues" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://github.com/geneasy/links/issues" target="_blank"><img alt="等你來加➕" class="lozad img-circle" data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://github.com/geneasy/links/issues" target="_blank"><strong>等你來加➕</strong></a>
+<p class="overflowClip_2">快來交換友情鏈接吧</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<h4 class="text-gray"><i class="fa-cloudscale" id="網路資源" style="margin-right: 7px;"></i>網路資源</h4>
+<div class="row">
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://forums.nasioc.com/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://forums.nasioc.com/" target="_blank"><img alt="NASIOC" class="lozad img-circle" data-src="https://m.media-amazon.com/images/I/71wWqWW+4oL.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://forums.nasioc.com/" target="_blank"><strong>NASIOC</strong></a>
+<p class="overflowClip_2">North American Subaru Impreza Owners Club</p>
+<p class="overflowClip_3">#NASIOC #重磅論譠</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.subaruoutback.org/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.subaruoutback.org/" target="_blank"><img alt="Subaru Outback Forums" class="lozad img-circle" data-src="https://images.platforum.cloud/logos/subaruoutback_org.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.subaruoutback.org/" target="_blank"><strong>Subaru Outback Forums</strong></a>
+<p class="overflowClip_2">Welcome to the Subaru Outback Owners Forum, we have tons of information about your Subaru Outback, from a Subaru Outback Wiki to customer reviews.</p>
+<p class="overflowClip_3">#LEGACY #OUTBACK #LIBERTY</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.subaruforester.org/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.subaruforester.org/" target="_blank"><img alt="Subaru Forester Owners Forum" class="lozad img-circle" data-src="https://images.platforum.cloud/logos/subaruforester_org.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.subaruforester.org/" target="_blank"><strong>Subaru Forester Owners Forum</strong></a>
+<p class="overflowClip_2">We’re the best Subaru Forester Owners Forum to talk about the best years of the Subaru Forester, modifications and reliability history of the Subaru Forester.</p>
+<p class="overflowClip_3">#FORESTER #森林人</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.subaruxvforum.com/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.subaruxvforum.com/" target="_blank"><img alt="Subaru Crosstrek and XV Forums" class="lozad img-circle" data-src="https://images.platforum.cloud/logos/subaruforester_org.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.subaruxvforum.com/" target="_blank"><strong>Subaru Crosstrek and XV Forums</strong></a>
+<p class="overflowClip_2">At Subaru XV Forum you&#x27;ll find fellow Subaru XV Enthusiasts to help perfect that Subaru Crosstrek Build, or share all kinds of information about this Subaru from its specs to its design.</p>
+<p class="overflowClip_3">#CROSSTREK #XV</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://sl-i.net/FORUM/showthread.php?18087" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://sl-i.net/FORUM/showthread.php?18087" target="_blank"><img alt="Subaru Legacy International" class="lozad img-circle" data-src="https://images.platforum.cloud/logos/subaruxvforum_com.svg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://sl-i.net/FORUM/showthread.php?18087" target="_blank"><strong>Subaru Legacy International</strong></a>
+<p class="overflowClip_2">A home for die hard Legacy, Outback, and Baja fans!</p>
+<p class="overflowClip_3">#零件手冊 #整備手冊</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://a15ff11300g.sakura.ne.jp/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://a15ff11300g.sakura.ne.jp/" target="_blank"><img alt="Play With LEGACY RS" class="lozad img-circle" data-src="https://a15ff11300g.sakura.ne.jp/img/title.01.gif" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://a15ff11300g.sakura.ne.jp/" target="_blank"><strong>Play With LEGACY RS</strong></a>
+<p class="overflowClip_2">BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。</p>
+<p class="overflowClip_3">#各代型錄 #日文</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://bbs.legacycentral.org/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://bbs.legacycentral.org/" target="_blank"><img alt="legacycentral bbs - LCBBS" class="lozad img-circle" data-src="https://www.subarist.net/assets/world-subaru.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://bbs.legacycentral.org/" target="_blank"><strong>legacycentral bbs - LCBBS</strong></a>
+<p class="overflowClip_2">A forum for 89-94 BC-BF(BJ) Legacy Owners and Fans</p>
+<p class="overflowClip_3">#老雷論壇 #BC-BF(BJ)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.auto-brochures.com/subaru.html" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.auto-brochures.com/subaru.html" target="_blank"><img alt="Auto-Brochures Subaru" class="lozad img-circle" data-src="https://www.subarist.net/assets/world-subaru.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.auto-brochures.com/subaru.html" target="_blank"><strong>Auto-Brochures Subaru</strong></a>
+<p class="overflowClip_2">Subaru car pdf sales brochures, catalogs and electronic media.</p>
+<p class="overflowClip_3">#各代型錄 #英文</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<h4 class="text-gray"><i class="fa-cloudscale" id="社群媒體" style="margin-right: 7px;"></i>社群媒體</h4>
+<div class="row">
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.facebook.com/groups/SubaruImprezaGC8OwnersClub" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.facebook.com/groups/SubaruImprezaGC8OwnersClub" target="_blank"><img alt="Subaru Impreza GC8 Owners Club" class="lozad img-circle" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.facebook.com/groups/SubaruImprezaGC8OwnersClub" target="_blank"><strong>Subaru Impreza GC8 Owners Club</strong></a>
+<p class="overflowClip_2">公開社團 6.6 萬位成員</p>
+<p class="overflowClip_3">#GC8 #GF8 #IMPREZA</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.facebook.com/groups/SUYACLUB/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.facebook.com/groups/SUYACLUB/" target="_blank"><img alt="SUBARU SUYA CLUB (快樂舒壓.TW)" class="lozad img-circle" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.facebook.com/groups/SUYACLUB/" target="_blank"><strong>SUBARU SUYA CLUB (快樂舒壓.TW)</strong></a>
+<p class="overflowClip_2">私密社團 3.0 萬位成員</p>
+<p class="overflowClip_3">#SUYA #舒壓</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://github.com/geneasy/links/issues" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://github.com/geneasy/links/issues" target="_blank"><img alt="等你來加➕" class="lozad img-circle" data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://github.com/geneasy/links/issues" target="_blank"><strong>等你來加➕</strong></a>
+<p class="overflowClip_2">快來交換友情鏈接吧</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://github.com/geneasy/links/issues" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://github.com/geneasy/links/issues" target="_blank"><img alt="等你來加➕" class="lozad img-circle" data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://github.com/geneasy/links/issues" target="_blank"><strong>等你來加➕</strong></a>
+<p class="overflowClip_2">快來交換友情鏈接吧</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<h4 class="text-gray"><i class="fa-cloudscale" id="部落格" style="margin-right: 7px;"></i>部落格</h4>
+<div class="row">
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://www.motor-uncle.net/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://www.motor-uncle.net/" target="_blank"><img alt="阿北的機器世界" class="lozad img-circle" data-src="https://i0.wp.com/www.motor-uncle.net/wp-content/uploads/2022/05/cropped-channels4_profile.jpg?fit&#x3D;32%2C32&amp;ssl&#x3D;1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://www.motor-uncle.net/" target="_blank"><strong>阿北的機器世界</strong></a>
+<p class="overflowClip_2">喜歡車子的朋友一起來玩!!(亞倫視覺)</p>
+<p class="overflowClip_3">#Motor-uncle #網紅 #阿北</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://github.com/geneasy/links/issues" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://github.com/geneasy/links/issues" target="_blank"><img alt="等你來加➕" class="lozad img-circle" data-src="data:image/svg+xml,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 100 100&quot;&gt;&lt;text y&#x3D;&quot;0.9em&quot; x&#x3D;&quot;0.1em&quot; font-size&#x3D;&quot;90&quot;&gt;G&lt;/text&gt;&lt;/svg&gt;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://github.com/geneasy/links/issues" target="_blank"><strong>等你來加➕</strong></a>
+<p class="overflowClip_2">快來交換友情鏈接吧</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<h4 class="text-gray"><i class="fa-cloudscale" id="Flarum" style="margin-right: 7px;"></i>Flarum</h4>
+<div class="row">
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://flarum.org/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://flarum.org/" target="_blank"><img alt="FLARUM - Forums made simple." class="lozad img-circle" data-src="https://encrypted-tbn0.gstatic.com/images?q&#x3D;tbn:ANd9GcTm64RA1Aw0MG3lF4olnKzDWBbGJ5t_GMj3mA&amp;usqp&#x3D;CAU" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://flarum.org/" target="_blank"><strong>FLARUM - Forums made simple.</strong></a>
+<p class="overflowClip_2">Flarum is the next-generation forum software that makes online discussion fun. It&#x27;s simple, fast, and free.。</p>
+<p class="overflowClip_3">#Flarum #Forum #PHP</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="xe-widget xe-conversations box2 label-info" data-original-title="https://discuss-cn.pipecraft.net/" data-placement="bottom" data-toggle="tooltip" title="">
+<div class="xe-comment-entry">
+<a class="xe-user-img" href="https://discuss-cn.pipecraft.net/" target="_blank"><img alt="Pipecraft 社區" class="lozad img-circle" data-src="https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="40"></a>
+<div class="xe-comment">
+<a class="xe-user-name overflowClip_1" href="https://discuss-cn.pipecraft.net/" target="_blank"><strong>Pipecraft 社區</strong></a>
+<p class="overflowClip_2">這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。</p>
+<p class="overflowClip_3">#RSS #Atom #聚合新聞 #內容訂閱</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <footer class="footer">
 <div class="footer-mobile">
 <div class="bloq">
@@ -1243,9 +1038,9 @@ div {
 </div>
 </div>
 </div>
-</footer >            
-        </div>
-        <footer class="footer">
+</footer >
+</div>
+<footer class="footer">
 <div class="footer-table">
 <div class="bloq">
 <div class=" flex-2">
@@ -1286,14 +1081,79 @@ div {
 </div>
 </div>
 </footer >
-        <button onclick="scrollToTop()" class="scroll-top">
-        <i class="fas fa-angle-double-up" id="dblArrowUp"></i>
-        </button>
-        <button onclick="scrollToBottom()" class="scroll-bottom">
-        <i class="fas fa-angle-double-down" id="dblArrowDown"></i>
-        </button>
+<button-scroll class="scroll-top" onclick="scrollToTop()"><i class="fas fa-angle-double-up" id="dblArrowUp"></i></button-scroll>
+<button-scroll class="scroll-bottom" onclick="scrollToBottom()"><i class="fas fa-angle-double-down" id="dblArrowDown"></i></button-scroll>
+<link href="https://www.subarist.net/assets/subarist-link-light.css" rel="stylesheet" id="subaristLinkLightStylesheet" disabled>
+<script>
+    // 獲取按鈕和樣式表
+    const switchStyleButton = document.getElementById("switchStyleButton");
+    const subaristLinkStylesheet = document.getElementById("subaristLinkStylesheet");
+    const subaristLinkLightStylesheet = document.getElementById("subaristLinkLightStylesheet");
+    
+    // 獲取Cookie中存儲的樣式
+    let currentStyle = getCookie("subaristStyle");
+    if (!currentStyle) {
+      // 如果Cookie中不存在樣式，則使用第一個樣式表
+      currentStyle = "link";
+      setCookie("subaristStyle", currentStyle, 365);
+    }
+    
+    // 根據當前樣式更新按鈕文本和樣式表
+    updateButtonAndStyles(currentStyle);
+    
+    // 為按鈕添加點擊事件處理程序
+    switchStyleButton.addEventListener("click", function() {
+      // 根據當前樣式切換到另一個樣式
+      currentStyle = currentStyle === "link" ? "link-light" : "link";
+      setCookie("subaristStyle", currentStyle, 365);
+      
+      // 更新按鈕文本和樣式表
+      updateButtonAndStyles(currentStyle);
+    });
+    
+    // 更新按鈕文本和樣式表
+    function updateButtonAndStyles(style) {
+      // 更新按鈕文本
+      switchStyleButton.textContent = style === "link" ? "Night Mode" : "Day Mode";
+      
+      // 更新樣式表
+      if (style === "link") {
+        subaristLinkStylesheet.disabled = false;
+        subaristLinkLightStylesheet.disabled = true;
+      } else {
+        subaristLinkStylesheet.disabled = true;
+        subaristLinkLightStylesheet.disabled = false;
+      }
+    }
+    
+    // Cookie相關函數
+    function setCookie(name, value, days) {
+      const date = new Date();
+      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+      const expires = "; expires=" + date.toGMTString();
+      document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    
+    function getCookie(name) {
+      const nameEQ = name + "=";
+      const ca = document.cookie.split(';');
+   for (let i = 0; i < ca.length; i++) {
+let c = ca[i];
+while (c.charAt(0) === " ") {
+c = c.substring(1, c.length);
+}
+if (c.indexOf(nameEQ) === 0) {
+return c.substring(nameEQ.length, c.length);
+}
+}
+return null;
+}
+</script>
+<script type="text/javascript">
 
-    <script type="text/javascript">
+
+
+
 	         $(document).ready(function() {
 	              //img lazy loaded
 	              const observer = lozad();
@@ -1350,6 +1210,11 @@ div {
 	             href = $(this).attr("href");
 	             pos = $(href).position().top  - 30 ;
 	         });
+	         
+	         
+  
+	         
+	         
 
 	         // 卡片点击
 	         $(".xe-widget.xe-conversations a").on('click', function(e){
@@ -1373,6 +1238,8 @@ $(function(){
 		 $('.overlay').removeClass('active');
      });
  });
+ 
+ 
  
                          // 一鍵置頂/置底 
  $(function(){ 
@@ -1430,17 +1297,16 @@ jQuery(document).ready(function() {
 	                 
 	             }
 	          });
-
+	          
+	          
 	          	
 	$("#home-link").click(function(ev) {
     ev.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, "slow");
 });
-	          
-    </script>
-    <script async src="https://cse.google.com/cse.js?cx=04e55153283a64375">
-</script>
-    <script>
+
+	</script>
+<script>
 window.onload = function() {
   // Set the placeholder text for the search input fields
   document.getElementById('gsc-i-id1').placeholder = 'Search by Google';
@@ -1456,19 +1322,20 @@ window.onload = function() {
   document.getElementById('gsc-iw-id1').appendChild(searchIcon);
   document.getElementById('gsc-iw-id2').appendChild(searchIcon.cloneNode());
 };
+
 </script>
-    <!-- Bottom Scripts -->
+<script async src="https://cse.google.com/cse.js?cx=04e55153283a64375"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQPN3KGKWP">
+
+<script>
+	             window.dataLayer = window.dataLayer || [];
+	             function gtag(){dataLayer.push(arguments);}
+	             gtag('js', new Date());
+	             gtag('config', 'G-FQPN3KGKWP');
+	</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/xenon-toggles.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/xenon-custom.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/lozad.js"></script>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQPN3KGKWP"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-FQPN3KGKWP');
-    </script>
 </body>
 </html>
