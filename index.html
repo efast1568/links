@@ -12,7 +12,11 @@
 <link href="https://www.subarist.net/assets/favicon-3zw7clrx.png" rel="shortcut icon">
 <link href="https://www.subarist.net/assets/nav-links.css" rel="stylesheet">
 <link href="https://www.subarist.net/assets/subarist-link.css" rel="stylesheet" id="subaristLinkStylesheet">
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
 <meta content="article" property="og:type">
 <meta content="https://www.subarist.net/links/" property="og:url">
 <meta content="網址導航 - SUBARIST.NET" property="og:title">
@@ -23,6 +27,8 @@
 <meta content="網址導航 - SUBARIST.NET" name="twitter:title">
 <meta content="網路資源導航頁面。" name="twitter:description">
 <meta content="https://www.subarist.net/assets/pwa-icon-196x196-1t3eapur.png" name="twitter:image">
+
+
 <style>
 
 @media screen and (max-width:768px) {
@@ -492,6 +498,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
 	padding: 25px;
 }
 .gsc-adBlock {
+    display:none!important;
 	border-bottom: 1px solid #38444d!important;
 }
 .gsc-result-info {
@@ -578,6 +585,10 @@ div {
 	margin-top: 60px;
 	max-width: 1240px;
 }
+button::-moz-focus-inner{
+    padding:0;
+    border:0;
+}
 /*不明只能這樣置放*/
 
 @media (min-width:992px) {
@@ -600,14 +611,23 @@ div {
 	}
 }
 </style>
+
+
 </head>
+
+
+
 <body class="page-body">
+
+    
 <nav class="navbar navbar-expand-lg bg-info navbar-dark fixed-top">
 <div class="container">
 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
 <i class="fa-bars"><img src="https://www.subarist.net/assets/favicon-3zw7clrx.png" class="mobile-logo"></i></button><span class="mobile-title">資源導航<i aria-hidden="true" style="font-size:14px;padding-left:7px;" class="icon fa-solid fa-sort mobile-nav"></i></span>
-<a href="https://www.subarist.net" class="nav-link mobile-back" style="font-size:20px;position:fixed;top:1px;right:0px;display: none;"><i aria-hidden="true" class="icon  fa-solid fa-arrow-right-from-bracket"></i></a>
-<div class="overlay"></div>
+<a href="https://www.subarist.net" class="nav-link mobile-back" style="font-size:20px;position:fixed;top:1px;right:0px;display: none;"><i aria-hidden="true"  class="icon  fa-solid fa-arrow-right-from-bracket"></i></a>
+
+<div class="overlay"></div> 
+
 <div class=" collapse navbar-collapse " id="navbarSupportedContent">
 <a class="navbar-brand" href="#" id="home-link"><img src="https://www.subarist.net/assets/logo-yzli5vki.png" alt="logo" class="Header-logo"></a>
 <ul class="navbar-nav mr-auto">
@@ -644,12 +664,31 @@ div {
 </ul>
 </li>
 </ul>
-<form>
-<div class="gcse-searchbox"></div>
+
+
+ 
+
+
+
+
+
+<form >
+    <div class="gcse-searchbox"></div>
 </form>
-<button id="switchStyleButton">切換到淺色主題</button>
+
+
+  <button id="switchStyleButton">切換到淺色主題</button>
+  
+
 </nav>
+
+
+
 <div class="page-container">
+
+
+    
+    
 <div class="sidebar-menu toggle-others fixed">
 <div class="sidebar-menu-inner">
 <ul class="main-menu" id="main-menu">
@@ -674,14 +713,18 @@ div {
 <li>
 <a href="https://github.com/efast1568/links/issues" target="_blank"><i class="fa-user-plus"></i> <span class="tooltip-blue">申請連結</span> <span class="label label-Primary pull-right hidden-collapsed"><i class="fa-caret-down"></i></span></a>
 </li>
-
+<!--<li>
+<a href="https://www.subarist.net"><i class="fa-house"></i> <span class="tooltip-blue">返回首頁</span> <span class="label label-Primary pull-right hidden-collapsed"><i class="fa-caret-down"></i></span></a>
+</li>-->
 </ul>
 </div>
 </div>
 <div class="main-content">
+    
 <div class="gcse-searchresults"></div>
 <div class="gcse-search"></div>
-</br>
+</br>    
+    
 <h4 class="text-gray"><i class="fa-cloudscale" id="最新上架" style="margin-right: 7px;"></i>最新上架</h4>
 <div class="row">
 <div class="col-sm-5">
@@ -1040,7 +1083,7 @@ div {
 </div>
 </footer >
 </div>
-<footer class="footer">
+<footer class="footer"> 
 <div class="footer-table">
 <div class="bloq">
 <div class=" flex-2">
@@ -1084,7 +1127,7 @@ div {
 <button-scroll class="scroll-top" onclick="scrollToTop()"><i class="fas fa-angle-double-up" id="dblArrowUp"></i></button-scroll>
 <button-scroll class="scroll-bottom" onclick="scrollToBottom()"><i class="fas fa-angle-double-down" id="dblArrowDown"></i></button-scroll>
 <link href="https://www.subarist.net/assets/subarist-link-light.css" rel="stylesheet" id="subaristLinkLightStylesheet" disabled>
-<script>
+  <script>
     // 獲取按鈕和樣式表
     const switchStyleButton = document.getElementById("switchStyleButton");
     const subaristLinkStylesheet = document.getElementById("subaristLinkStylesheet");
@@ -1149,6 +1192,7 @@ return c.substring(nameEQ.length, c.length);
 return null;
 }
 </script>
+
 <script type="text/javascript">
 
 
@@ -1306,6 +1350,8 @@ jQuery(document).ready(function() {
 });
 
 	</script>
+
+
 <script>
 window.onload = function() {
   // Set the placeholder text for the search input fields
@@ -1324,7 +1370,13 @@ window.onload = function() {
 };
 
 </script>
+
+
+
 <script async src="https://cse.google.com/cse.js?cx=04e55153283a64375"></script>
+
+
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQPN3KGKWP">
 
 <script>
@@ -1337,5 +1389,6 @@ window.onload = function() {
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/xenon-toggles.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/xenon-custom.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pzwd-net/webstack-assets@main/js/lozad.js"></script>
+
 </body>
 </html>
