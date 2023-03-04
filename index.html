@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
@@ -12,7 +11,7 @@
 <link href="https://www.subarist.net/assets/favicon-3zw7clrx.png" rel="shortcut icon">
 <link href="https://www.subarist.net/assets/nav-links.css" rel="stylesheet">
 <link href="https://www.subarist.net/assets/subarist-link.css" rel="stylesheet" id="subaristLinkStylesheet">
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
@@ -31,18 +30,7 @@
 
 <style>
 
-@media screen and (max-width:768px) {
-	.page-container .sidebar-menu.fixed {
-		display: none;
-	}
-	.logo h1 {
-		margin-top: 0px;
-		margin-bottom: 0px
-	}
-	form.form-inline {
-		margin-top: 20px;
-	}
-}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	.container {
 		width: 992px;
@@ -55,6 +43,13 @@
 }
 /*手機版面*/
 @media (max-width: 992px) {
+    input#gsc-i-id2 {
+    margin-left: 28px!important;
+}
+    button#switchStyleButton {
+    margin-top: 15px;
+    margin-left: -3px;
+    }
 	.page-container .sidebar-menu .sidebar-menu-inner .main-menu {
 		display: none;
 		margin-bottom: 0;
@@ -107,10 +102,7 @@
 		padding: 12px 11px!important;
 		margin-left: -1px!important;
 	}
-	i.fa.fa-search {
-		top: -27px!important;
-		left: -14px!important;
-	}
+
 	.col-sm-5 {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -159,7 +151,7 @@
 		margin-left: -30px;
 		margin-right: -20px;
 	}
-	li.nav-item {
+	.nav-item {
 		margin-top: 3px;
 	}
 	.dropdown-menu li {
@@ -215,7 +207,11 @@
     .bloq {
 	flex-direction: column;
 	    --bs-gutter-x: -1rem!important;
-
+}
+.gsc-webResult.gsc-result {
+    border-bottom: 1px solid #38444d!important;
+    margin-bottom: 0px!important;
+    padding: 8px 0px!important;
 }
 }
 /*電腦版面*/
@@ -226,17 +222,17 @@
 		margin: 0 auto;
 	}
 	.gsc-input-box {
-		width: 225px;
+		width: 230px;
 		position: relative;
-		right: 125px;
-		top: 3px;
+		right: 20px;
+		top: 2px;
 		transition: border-color .15s, right .4s, width .4s!important;
 	}
 	.gsc-input-box:focus-within {
 	    background: #15202b ;
 		border-color: #1d9bf0 ;
 		width: 400px!important;
-		right: 300px!important;
+		right: 20px!important;
 		transition: border-color .15s, width .4s, right .4s!important;
 	}
 	.col-sm-5 {
@@ -247,10 +243,7 @@
 	.gsc-tabsArea {
 		margin-top: 30px!important;
 	}
-	.gsc-input-box {
-		padding-top: 1px!important;
-		padding-bottom: 0px!important;
-	}
+
 	.gsc-search-button-v2 {
 		font-size: 0px!important;
 		padding: 6px 20px!important;
@@ -269,7 +262,7 @@
 	.mobile-title {
 		display: none;
 	}
-	li.nav-item {
+	.nav-item {
 		font-weight: 600;
 		font-size: 15px;
 	}
@@ -293,8 +286,18 @@
     font-family: system-ui, Arial, sans-serif!important;
     font-size: 14px!important;
 }
+.gsc-webResult .gsc-result {
+	border-bottom: 1px solid #38444d!important;
+    padding: 15px 10px!important;
 }
-
+}
+button#switchStyleButton  {
+    background: transparent;
+    border: none;
+    color: #ebebeb;
+    margin-right: 30px;
+    font-size: 15px;
+}
 
 .gsc-control-cse {
     font-family: system-ui, Arial, sans-serif!important;
@@ -320,11 +323,7 @@
 	padding: 5px!important;
 	font-size: 14px!important;
 }
-.gsc-webResult .gsc-result {
-	border-bottom: 1px solid #38444d!important;
-	margin-bottom: 10px!important;
-	padding: 10px 10px!important;
-}
+
 .gsc-tabHeader {
 	font-size: 14px!important;
 }
@@ -457,7 +456,6 @@ h4, .h4, h5, .h5, h6, .h6 {
 	background: transparent;
 	border: none;
 	margin-top: -5px;
-	margin-bottom: -5px;
 	padding-left: 15px;
 	font-size: 14px;
 }
@@ -494,17 +492,13 @@ img.mobile-logo {
 .logo h1 {
 	font-size: 20px;
 }
-div#___gcse_0 {
-	width: 230px;
-}
-.gsc-input {
-	font-size: 15px!important;
-}
+
 input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
 	border-color: #38444d;
 	background: transparent!important;
 	color: #ebebeb;
-	padding: 25px;
+
+	font-size: 14px!important;
 }
 .gsc-adBlock {
     display:none!important;
@@ -522,7 +516,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
 }
 div#gsc-iw-id1 {
 	border-radius: 12px;
-	height: 38px;
+	height: 36px;
 }
 #gsc-i-id1::placeholder {
 	color: #ebebeb!important;
@@ -531,9 +525,9 @@ div#gsc-iw-id1 {
 	color: #ebebeb!important;
 }
 input#gsc-i-id1 {
-	margin-left: -30px!important;
+	margin-left: -5px!important;
 	padding-left: 30px!important;
-	width: 145%!important;
+	width: 105%!important;
 }
 a.gsst_a:before {
 	content: '\f057';
@@ -541,7 +535,7 @@ a.gsst_a:before {
 	font-weight: 900;
 	color: #ebebeb;
 	position: absolute;
-	left: 5px;
+	right: 15px;
 	top: 1px;
 }
 span#gs_cb50, span#gs_cb51 {
@@ -594,10 +588,8 @@ div {
 	margin-top: 60px;
 	max-width: 1240px;
 }
-button::-moz-focus-inner{
-    padding:0;
-    border:0;
-}
+
+
 /*不明只能這樣置放*/
 
 @media (min-width:992px) {
@@ -605,7 +597,7 @@ button::-moz-focus-inner{
 		display: none;
 	}
 	.down-footer {
-    margin: 0px auto;
+    margin: 0 auto;
     }
 	.bloq-3 {
 		flex: 0 0 auto;
@@ -686,7 +678,7 @@ button::-moz-focus-inner{
 </form>
 
 
-  <button id="switchStyleButton">切換到淺色主題</button>
+<button id="switchStyleButton"></button>
   
 
 </nav>
@@ -720,7 +712,7 @@ button::-moz-focus-inner{
 <a class="smooth" href="#Flarum"><i class="fa-code"></i> <span class="title">Flarum</span></a>
 </li>
 <li>
-<a href="https://github.com/efast1568/links/issues" target="_blank"><i class="fa-user-plus"></i> <span class="tooltip-blue">申請連結</span> <span class="label label-Primary pull-right hidden-collapsed"><i class="fa-caret-down"></i></span></a>
+<a href="https://github.com/efast1568/links/issues" target="_blank"><i class="fa-user-plus"></i> <span class="tooltip-blue">申請連結</span><i class="fa-caret-down"></i></a>
 </li>
 <!--<li>
 <a href="https://www.subarist.net"><i class="fa-house"></i> <span class="tooltip-blue">返回首頁</span> <span class="label label-Primary pull-right hidden-collapsed"><i class="fa-caret-down"></i></span></a>
@@ -1137,58 +1129,58 @@ button::-moz-focus-inner{
 <button-scroll class="scroll-bottom" onclick="scrollToBottom()"><i class="fas fa-angle-double-down" id="dblArrowDown"></i></button-scroll>
 <link href="https://www.subarist.net/assets/subarist-link-light.css" rel="stylesheet" id="subaristLinkLightStylesheet" disabled>
   <script>
-    // 獲取按鈕和樣式表
-    const switchStyleButton = document.getElementById("switchStyleButton");
-    const subaristLinkStylesheet = document.getElementById("subaristLinkStylesheet");
-    const subaristLinkLightStylesheet = document.getElementById("subaristLinkLightStylesheet");
-    
-    // 獲取Cookie中存儲的樣式
-    let currentStyle = getCookie("subaristStyle");
-    if (!currentStyle) {
-      // 如果Cookie中不存在樣式，則使用第一個樣式表
-      currentStyle = "link";
-      setCookie("subaristStyle", currentStyle, 365);
-    }
-    
-    // 根據當前樣式更新按鈕文本和樣式表
-    updateButtonAndStyles(currentStyle);
-    
-    // 為按鈕添加點擊事件處理程序
-    switchStyleButton.addEventListener("click", function() {
-      // 根據當前樣式切換到另一個樣式
-      currentStyle = currentStyle === "link" ? "link-light" : "link";
-      setCookie("subaristStyle", currentStyle, 365);
-      
-      // 更新按鈕文本和樣式表
-      updateButtonAndStyles(currentStyle);
-    });
-    
-    // 更新按鈕文本和樣式表
-    function updateButtonAndStyles(style) {
-      // 更新按鈕文本
-      switchStyleButton.textContent = style === "link" ? "Night Mode" : "Day Mode";
-      
-      // 更新樣式表
-      if (style === "link") {
-        subaristLinkStylesheet.disabled = false;
-        subaristLinkLightStylesheet.disabled = true;
-      } else {
-        subaristLinkStylesheet.disabled = true;
-        subaristLinkLightStylesheet.disabled = false;
-      }
-    }
-    
-    // Cookie相關函數
-    function setCookie(name, value, days) {
-      const date = new Date();
-      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-      const expires = "; expires=" + date.toGMTString();
-      document.cookie = name + "=" + value + expires + "; path=/";
-    }
-    
-    function getCookie(name) {
-      const nameEQ = name + "=";
-      const ca = document.cookie.split(';');
+  // 獲取按鈕和樣式表
+const switchStyleButton = document.getElementById("switchStyleButton");
+const subaristLinkStylesheet = document.getElementById("subaristLinkStylesheet");
+const subaristLinkLightStylesheet = document.getElementById("subaristLinkLightStylesheet");
+// 獲取Cookie中存儲的樣式
+let currentStyle = getCookie("subaristStyle");
+if (!currentStyle) {
+  // 如果Cookie中不存在樣式，則使用第一個樣式表
+  currentStyle = "link";
+  setCookie("subaristStyle", currentStyle, 365);
+}
+
+// 根據當前樣式更新按鈕文本和樣式表
+updateButtonAndStyles(currentStyle);
+
+// 為按鈕添加點擊事件處理程序
+switchStyleButton.addEventListener("click", function() {
+  // 根據當前樣式切換到另一個樣式
+  currentStyle = currentStyle === "link" ? "link-light" : "link";
+  setCookie("subaristStyle", currentStyle, 365);
+  
+  // 更新按鈕文本和樣式表
+  updateButtonAndStyles(currentStyle);
+});
+
+// 更新按鈕文本和樣式表
+function updateButtonAndStyles(style) {
+  // 更新按鈕文本
+  switchStyleButton.innerHTML = style === "link" ? '<a><i class="far fa-moon mobile-icon"></i><span ">切換日夜模式</span></a>' : '<a><i class="icon far fa-sun mobile-icon"></i><span >切換日夜模式</span></a>';
+  
+  // 更新樣式表
+  if (style === "link") {
+    subaristLinkStylesheet.disabled = false;
+    subaristLinkLightStylesheet.disabled = true;
+  } else {
+    subaristLinkStylesheet.disabled = true;
+    subaristLinkLightStylesheet.disabled = false;
+  }
+}
+
+// Cookie相關函數
+function setCookie(name, value, days) {
+  const date = new Date();
+  date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+  const expires = "; expires=" + date.toGMTString();
+  document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+function getCookie(name) {
+  const nameEQ = name + "=";
+  const ca = document.cookie.split(';');
+
    for (let i = 0; i < ca.length; i++) {
 let c = ca[i];
 while (c.charAt(0) === " ") {
@@ -1369,11 +1361,10 @@ window.onload = function() {
 
   // Add the "fa fa-search" icon before the search input fields
   var searchIcon = document.createElement('i');
-  searchIcon.className = 'fa fa-search';
+  searchIcon.className = 'fa fa-search mobile-icon';
   searchIcon.style.position = 'relative';
-  searchIcon.style.top = '-26px';
-  searchIcon.style.left = '-15px';
-  searchIcon.style.fontSize = '16px';
+  searchIcon.style.top = '-25px';
+  searchIcon.style.left = '12px';
   document.getElementById('gsc-iw-id1').appendChild(searchIcon);
   document.getElementById('gsc-iw-id2').appendChild(searchIcon.cloneNode());
 };
