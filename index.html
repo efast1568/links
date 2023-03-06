@@ -731,142 +731,125 @@ return c.substring(nameEQ.length, c.length);
 return null;
 }
 </script>
-<script type="text/javascript">
-	         $(document).ready(function() {
-	              //img lazy loaded
-	              const observer = lozad();
-	              observer.observe();
+<script type = "text/javascript" >
+	$(document).ready(function() {
+		//img lazy loaded
+		const observer = lozad();
+		observer.observe();
 
-	             $(document).on('click', '.has-sub', function(){
-	                 var _this = $(this)
-	                 if(!$(this).hasClass('expanded')) {
-	                    setTimeout(function(){
-	                         _this.find('ul').attr("style","")
-	                    }, 300);
+		$(document).on('click', '.has-sub', function() {
+			var _this = $(this)
+			if (!$(this).hasClass('expanded')) {
+				setTimeout(function() {
+					_this.find('ul').attr("style", "")
+				}, 300);
 
-	                 } else {
-	                     $('.has-sub ul').each(function(id,ele){
-	                         var _that = $(this)
-	                         if(_this.find('ul')[0] != ele) {
-	                             setTimeout(function(){
-	                                 _that.attr("style","")
-	                             }, 300);
-	                         }
-	                     })
-	                 }
-	             })
+			} else {
+				$('.has-sub ul').each(function(id, ele) {
+					var _that = $(this)
+					if (_this.find('ul')[0] != ele) {
+						setTimeout(function() {
+							_that.attr("style", "")
+						}, 300);
+					}
+				})
+			}
+		})
 
-	             $("#main-menu li ul li").click(function() {
-	                 $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
-	                 $(this).addClass('active'); // 添加当前元素的样式
-	             });
-	             $("a.smooth").click(function(ev) {
-	                 ev.preventDefault();
+		$("#main-menu li ul li").click(function() {
+			$(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+			$(this).addClass('active'); // 添加当前元素的样式
+		});
+		$("a.smooth").click(function(ev) {
+			ev.preventDefault();
 
-	                 var offset = $(".mobile-menu-toggle").is(":visible") ? 90 : 25;
+			var offset = $(".mobile-menu-toggle").is(":visible") ? 90 : 25;
 
-	                 public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-	                 ps_destroy();
-	                 $("html, body").animate({
-	                     scrollTop: $($(this).attr("href")).offset().top - offset
-	                 }, {
-	                     duration: 500,
-	                     easing: "swing"
-	                 });
-	             });
-	             return false;
-	         });
+			public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+			ps_destroy();
+			$("html, body").animate({
+				scrollTop: $($(this).attr("href")).offset().top - offset
+			}, {
+				duration: 500
+				, easing: "swing"
+			});
+		});
+		return false;
+	});
 
-	         var href = "";
-	         var pos = 0;
-	         $("a.smooth").click(function(e) {
-	             $("#main-menu li").each(function() {
-	                 $(this).removeClass("active");
-	             });
-	             $(this).parent("li").addClass("active");
-	             e.preventDefault();
-	             href = $(this).attr("href");
-	             pos = $(href).position().top  - 30 ;
-	         });
-	         // 卡片点击
-	         $(".xe-widget.xe-conversations a").on('click', function(e){
-	           // 禁止 a 标签的默认点击事件，用 card 的点击事件代替
-	           e.preventDefault();
-	         });
-	         $(".xe-widget.xe-conversations").on('click', function(e){
-	           e.preventDefault();
-	           // 禁止 a 标签的默认点击事件，用 card 的点击事件代替
-	           var url = $("a", this).attr("href");
-	           if (url) {
-	             window.open(url, "_blank");
-	           }
-	         });
-			 
-			 			 //點擊後關閉菜單 
-$(function(){ 
-     var navMain = $(".navbar-collapse");
-     navMain.on("click", "a", null, function () {
-         navMain.collapse('hide');
-		 $('.overlay').removeClass('active');
-     });
- });
-                         // 一鍵置頂/置底 
- $(function(){ 
-     var navMain = $(".navbar-collapse");
-     navMain.on("click", "a", null, function () {
-         navMain.collapse('hide');
-		 $('.overlay').removeClass('active');
-     });
- });
+// 卡片点击
+$(".xe-widget.xe-conversations a").on('click', function(e) {
+	// 禁止 a 标签的默认点击事件，用 card 的点击事件代替
+	e.preventDefault();
+});
+$(".xe-widget.xe-conversations").on('click', function(e) {
+	e.preventDefault();
+	// 禁止 a 标签的默认点击事件，用 card 的点击事件代替
+	var url = $("a", this).attr("href");
+	if (url) {
+		window.open(url, "_blank");
+	}
+});
 
-$(function(){ 
-     var navMain = $(".navbar-collapse");
-	    $('.overlay').on('click', function() {
-       navMain.collapse('hide');
-	   $('.overlay').removeClass('active');
-    });
+//點擊後關閉菜單 
+$(function() {
+	var navMain = $(".navbar-collapse");
+	navMain.on("click", "a", null, function() {
+		navMain.collapse('hide');
+		$('.overlay').removeClass('active');
+	});
+});
 
- });
+$(function() {
+	var navMain = $(".navbar-collapse");
+	$('.overlay').on('click', function() {
+		navMain.collapse('hide');
+		$('.overlay').removeClass('active');
+	});
+});
+
 jQuery(document).ready(function() {
-
-     $('.navbar-toggler').on('click', function(e) {
-        e.preventDefault();
-        $('.overlay').addClass('active');
-    });
+	$('.navbar-toggler').on('click', function(e) {
+		e.preventDefault();
+		$('.overlay').addClass('active');
+	});
 
 });
-                     // 一鍵置頂/置底
-	         function scrollToTop() {
-	               window.scrollTo({
-	               top: 0,
-	               behavior: "smooth",
-	             });
-	          }
-	         function scrollToBottom() {
-	               window.scrollTo({
-	               left: 0,
-	               top: document.body.scrollHeight,
-	               behavior: "smooth",
-	             });
-	         }
-	         $(window).scroll(function () {
-	             if ($(window).scrollTop() > 0 ) {
-				 	                 $("nav.navbar").css('box-shadow', '0 2px 6px rgb(0 0 0 / 50%)'); 
-	                 $(".scroll-top").show();
-	                 $(".scroll-bottom").show();
 
-	             }
-	             else if ($(window).scrollTop() == 0  ) {
-				 $("nav.navbar").css('box-shadow', 'none');
-	                 $(".scroll-top").hide();
-	                 $(".scroll-bottom").hide();
-                 }
-	          });      	
-	$("#home-link").click(function(ev) {
-    ev.preventDefault();
-    $("html, body").animate({ scrollTop: 0 }, "slow");
+// 一鍵置頂/置底
+function scrollToTop() {
+	window.scrollTo({
+		top: 0
+		, behavior: "smooth"
+	, });
+}
+
+function scrollToBottom() {
+	window.scrollTo({
+		left: 0
+		, top: document.body.scrollHeight
+		, behavior: "smooth"
+	, });
+}
+$(window).scroll(function() {
+	if ($(window).scrollTop() > 0) {
+		$("nav.navbar").css('box-shadow', '0 2px 6px rgb(0 0 0 / 50%)');
+		$(".scroll-top").show();
+		$(".scroll-bottom").show();
+	} else if ($(window).scrollTop() == 0) {
+		$("nav.navbar").css('box-shadow', 'none');
+		$(".scroll-top").hide();
+		$(".scroll-bottom").hide();
+	}
 });
-	</script>
+
+$("#home-link").click(function(ev) {
+	ev.preventDefault();
+	$("html, body").animate({
+		scrollTop: 0
+	}, "slow");
+});
+</script>
 <script>
 window.onload = function() {
   // Set the placeholder text for the search input fields
