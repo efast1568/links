@@ -74,12 +74,12 @@ categories:
         logo: https://www.subaru.asia/assets/images/logos/subaru.png
         url: https://www.subaru.asia/tw/zh/home/
         description: SUBARU SAWD 對稱式全時四輪驅動及Boxer Engine水平對臥引擎，提供出色的穩定性、駕駛性能與操控性。
-        tags: SUBARU,SAWD,Boxer
+        tags: SAWD,BOXER
       - title: MAZDA Motor Taiwan
         logo: https://www.mazda.com.tw/globalassets/logos/mazda_logo_global_nav_new.png
         url: https://www.mazda.com.tw/
         description: 揉合職人工藝與日式美學，探索自我獨創之道。以誠心款待的精神，創造人馬一体的駕馭樂趣。
-        tags: MAZDA,人馬一體,轉子,Roadster
+        tags: 人馬一體,轉子,ROADSTAR
       - title: STI
         logo: https://logodix.com/logo/929495.png
         url: https://www.sti.jp/en/index.html
