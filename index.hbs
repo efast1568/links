@@ -104,7 +104,7 @@
                     <li>
                         {{#if categories}}
                         <a>
-                            <i class="{{icon}}"></i>
+                            <i class="{{icon}} mobile-icon"></i>
                             <span class="title">{{category}}</span>
                         </a>
                         <ul>
@@ -123,7 +123,7 @@
                         </ul>
                         {{else}}
                         <a href="#{{category}}" class="smooth">
-                            <i class="{{icon}}"></i>
+                            <i class="{{icon}} mobile-icon"></i>
                             <span class="title">{{category}}</span>
                         </a>
                         {{/if}}
@@ -133,9 +133,9 @@
                     {{#if link_exchange_url}}
                     <li>
                         <a href="{{link_exchange_url}}" target="_blank">
-                            <i class="fa-user-plus"></i>
+                            <i class="fa-user-plus mobile-icon"></i>
                             <span class="tooltip-blue">申請連結</span>
-                            <span class="label label-Primary pull-right hidden-collapsed"><i class="fa-caret-down"></i></span>
+                            <span class="label label-Primary pull-right hidden-collapsed">&nbsp;<i class="fa-caret-down mobile-icon" ></i></span>
                         </a>
                     </li>
                     {{/if}}
