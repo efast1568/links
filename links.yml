@@ -33,16 +33,16 @@ categories:
   - category: 最新上架
     icon: fa-folder-plus
     links:
+      - title: FreeFlarum
+        logo: https://freeflarum.com/logo.svg
+        url: https://freeflarum.com/
+        description: 只要5分鐘，立即免費開始使用 Flarum 構建您的社區 - 這是最快、最現代的開源論壇框架之一。
+        tags: Flarum,Free
       - title: Play With LEGACY RS
         logo: https://a15ff11300g.sakura.ne.jp/img/title.01.gif
         url: https://a15ff11300g.sakura.ne.jp/
         description:  BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。
         tags: 各代型錄,日文
-      - title: legacycentral bbs - LCBBS
-        logo: https://www.subarist.net/assets/world-subaru.png
-        url: https://bbs.legacycentral.org/
-        description: A forum for 89-94 BC-BF(BJ) Legacy Owners and Fans
-        tags: 老雷論壇,BC-BF(BJ)
       - title: Auto-Brochures Subaru
         logo: https://www.subarist.net/assets/world-subaru.png
         url: https://www.auto-brochures.com/subaru.html
@@ -173,8 +173,8 @@ categories:
         url: https://flarum.org/
         description: Flarum is the next-generation forum software that makes online discussion fun. It's simple, fast, and free.。
         tags: Flarum,Forum,PHP
-      - title: Pipecraft 社區
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 這里是可以自由交流關於 RSS, Atom, JSON Feed, 聚合新聞，內容訂閱等話題的地方。
-        tags: RSS,Atom,聚合新聞,內容訂閱
+      - title: FreeFlarum
+        logo: https://freeflarum.com/logo.svg
+        url: https://freeflarum.com/
+        description: 只要5分鐘，立即免費開始使用 Flarum 構建您的社區 - 這是最快、最現代的開源論壇框架之一。
+        tags: Flarum,Free
