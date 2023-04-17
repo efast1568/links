@@ -33,6 +33,11 @@ categories:
   - category: 最新上架
     icon: fa-folder-plus
     links:
+      - title: Catfans猫粉俱乐部
+        logo: https://catfans.club/assets/favicon-6pdbuufk.png
+        url: https://catfans.club
+        description: 为广大猫咪爱好者及猫咪行业从业者等猫粉们提供养猫经验分享、猫咪百科学习、猫咪文化交流、猫咪行业资讯动态等服务
+        tags: 猫咪,宠物,Flarum
       - title: FreeFlarum
         logo: https://www.subarist.net/assets/freeflarum-logo-small-circle.png
         url: https://freeflarum.com/
@@ -43,11 +48,7 @@ categories:
         url: https://a15ff11300g.sakura.ne.jp/
         description:  BC5 スバル・レガシィRSとの楽しい生活やスバル1000、スバルff-1、レオーネその他多くのスバル車の歴史やメカニズムなどについて紹介しています。
         tags: 各代型錄,日文
-      - title: Auto-Brochures Subaru
-        logo: https://www.subarist.net/assets/world-subaru.png
-        url: https://www.auto-brochures.com/subaru.html
-        description: Subaru car pdf sales brochures, catalogs and electronic media.
-        tags: 各代型錄,英文
+
   - category: 推薦
     hide_menu: true
     icon: fa-heart-circle-plus
@@ -178,3 +179,8 @@ categories:
         url: https://freeflarum.com
         description: 只要5分鐘，立即免費開始使用 Flarum 構建您的社區 - 這是最快、最現代的開源論壇框架之一。
         tags: Flarum,Free
+        - title: Catfans猫粉俱乐部
+        logo: https://catfans.club/assets/favicon-6pdbuufk.png
+        url: https://catfans.club
+        description: 为广大猫咪爱好者及猫咪行业从业者等猫粉们提供养猫经验分享、猫咪百科学习、猫咪文化交流、猫咪行业资讯动态等服务
+        tags: Flarum,猫咪,宠物 
